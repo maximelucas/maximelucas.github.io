@@ -31,7 +31,9 @@
         <!-- Pages -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+            {% if page.title and page.url != "/contact" %}  
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
 
