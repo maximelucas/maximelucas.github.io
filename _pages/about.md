@@ -6,7 +6,7 @@ description: Physicist, postdoctoral research at Aix-Marseille University.
 
 profile:
   align: right
-  image: maxime.jpg
+  image: prof_pic.jpg
   address: >
     <p>This is not me I swear</p>
     <p>123 your address street</p>
