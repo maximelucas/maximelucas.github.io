@@ -15,7 +15,7 @@ My full CV can be found [here](/assets/cv/Maxime_Lucas-CV-EN.pdf).
 
 #### Education
 
-- PhD in Physics
-- Master's in Artificial Intelligence
-- Msc in Physics
-- Bsc in Physics
+- PhD in Physics, joint between Lancaster University (UK) and Università degli Studi di Firenze (Italy) <span style="float:right;">2015-2019</span>
+- Master's in Artificial Intelligence, Katholieke Universiteit Leuven (Belgium) <span style="float:right;">2014-2015</span>
+- Msc in Physics, Université Libre de Bruxelles (Belgium) <span style="float:right;">2012-2014</span>
+- Bsc in Physics, Université Libre de Bruxelles (Belgium) <span style="float:right;">2009-2012</span>
