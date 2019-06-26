@@ -21,5 +21,5 @@ I am currently working on higher-order models for biological networks, as a post
 
 Before that, I worked on the synchronisation of nonautonomous systems of coupled oscillators for my PhD. The project was part of [COSMOS](https://www.uni-potsdam.de/cosmos-itn/), a Marie Curie training network, and I was co-supervised by [Aneta Stefanoska](https://www.lancaster.ac.uk/physics/about-us/people/aneta-stefanovska) (Lancaster University, UK) and [Duccio Fanelli](https://sites.google.com/site/ducciofanelli1/home) (University of Florence, Italy). I also hold a Complementary Master's in Artificial Intelligence from KULeuven (Belgium) and a Master's in Physics from Université Libre de Bruxelles (Belgium). 
 
-
+Do not hesitate to contact me for questions/comments/ideas/.. or just to say hi!
 
