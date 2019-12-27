@@ -81,7 +81,7 @@ include: ['_pages']
 exclude: [vendor]
 
 # Plug-ins
-plugins:
+plugins_dir:
     - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
