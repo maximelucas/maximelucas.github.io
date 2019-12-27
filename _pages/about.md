@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Maxime</strong> Lucas
-description: Physicist, postdoctoral researcher at Aix-Marseille University.
+description: Physicist, CENTURI postdoctoral fellow at Aix-Marseille University.
 
 profile:
   align: right
