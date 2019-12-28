@@ -9,11 +9,8 @@ My full CV can be found [here](/assets/cv/Maxime_Lucas-CV-EN.pdf).
 
 #### Current position
 
-- **Postdoctoral researcher**, Aix-Marseille University (France) <span style="float:right;">June 2019-Present</span>
-
-#### Past positions
-
-- **Research Associate**, Nonlinear Biomedical Physics, Lancaster University (UK) <span style="float:right;">Oct 2015-Feb 2019</span>
+- **CENTURI Postdoctoral fellow**<span style="float:right;">June 2019-Present</span>   
+Aix-Marseille University (France) 
 
 #### Education
 
