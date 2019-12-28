@@ -3,6 +3,8 @@ layout: page
 permalink: /contact/
 title: contact
 description: How to find me
+
+social: true
 ---
 
 
