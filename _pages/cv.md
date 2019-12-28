@@ -18,8 +18,14 @@ My full CV can be found [here](/assets/cv/Maxime_Lucas-CV-EN.pdf).
 #### Education
 
 - **PhD in Physics** <span style="float:right;">2015-2019</span>   
-Lancaster University (UK) and Università degli Studi di Firenze (Italy)
-- **Master's in Artificial Intelligence**, Katholieke Universiteit Leuven (Belgium) <span style="float:right;">2014-2015</span>
-- **Msc in Physics**, Université Libre de Bruxelles (Belgium) <span style="float:right;">2012-2014</span>
-- Exchange student, University of Toronto (Canada) <span style="float:right;">Fall 2012</span>
-- **Bsc in Physics**, Université Libre de Bruxelles (Belgium) <span style="float:right;">2009-2012</span>
+Lancaster University (UK) and Università degli Studi di Firenze (Italy)   
+Thesis: *Synchronisation and stability in nonautonomous oscillatory systems*
+- **Master's in Artificial Intelligence** <span style="float:right;">2014-2015</span>   
+Katholieke Universiteit Leuven (Belgium)   
+Dissertation: *Instabilities in Cortical Networks with Embedded Synfire Chains*
+- **Msc in Physics** <span style="float:right;">2012-2014</span>   
+Université Libre de Bruxelles (Belgium)   
+Dissertation: *Instabilités dynamiques de systèmes de billards avec interactions rares*
+- Exchange student, University of Toronto (Canada) <span style="float:right;">Autumn 2012</span>
+- **Bsc in Physics** <span style="float:right;">2009-2012</span>   
+Université Libre de Bruxelles (Belgium)
