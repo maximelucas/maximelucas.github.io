@@ -7,7 +7,7 @@ img:
 
 Page under construction...
 
-$$ \dot \theta_i = \omega + D \sum_{j=1}^N A_{ij} \sin(\theta_j - \theta_i) + \gamma \sin(\theta_i \theta_0) $$ 
+$$ \dot \theta_i = \omega + D \sum_{j=1}^N A_{ij} \sin(\theta_j - \theta_i) + \gamma \sin(\theta_i - \theta_0(t)) $$ 
 
 This page is about my work on synchronisation of networks of oscillators with time varying parameters. This was my PhD project, and you can find more information about it in the following publications:
 
