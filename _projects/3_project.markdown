@@ -7,7 +7,7 @@ img:
 
 My current project at Aix-Marseille University. 
 
-Test 5
+Test 6
 
 <script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
 <script type="application/vnd.jupyter.widget-state+json">
@@ -101,6 +101,14 @@ Test 5
             }
         }
     }
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "5c0648ba5ceb4fddb61ba6d6e7607a12"
 }
 </script>
 
