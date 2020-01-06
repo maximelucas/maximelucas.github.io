@@ -7,7 +7,7 @@ img:
 
 My current project at Aix-Marseille University. 
 
-Test 3
+Test 4
 
 <!-- Load require.js. Delete this if your page already loads require.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
@@ -96,4 +96,10 @@ Test 3
 </script>
 
 
-
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "5d74781c728c48ca9a024493f909b9e0"
+}
+</script>
