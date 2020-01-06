@@ -7,7 +7,7 @@ img:
 
 My current project at Aix-Marseille University. 
 
-Test
+Test 2
 
 <script src="https://unpkg.com/jupyter-js-widgets@~1.0.0/dist/embed.js"></script>
 <script type="application/vnd.jupyter-embedded-widgets">
