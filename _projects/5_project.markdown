@@ -1,55 +1,248 @@
 ---
 layout: page
 title: Project 5
-description: a project with a background image
+description: Higher-order syncronisation 
 img: /assets/img/1.jpg
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Page in construction. 
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div id="sketch"> </div>
+This is a first test. Play around with it!
+
+<script>
+let width;
+let height;
+let N;
+let net;
+let d;
+
+function setup() {
+
+  width = 640;
+  height = 480;
+  let canvas = createCanvas(width, height);
+  canvas.parent("sketch");
+
+  net = new Network();
+  N = 3; // initial number of nodes
+  d = 100; // distance under which to connect nodes
+
+  for (let i = 0; i <= 2; i++) {
+
+    pos = createVector(random(0,width), random(0, height));
+    node = new Node(pos);
+    net.addNode(node);
+  }
+
+  net.update();
+  net.display();
+}
+
+function draw() {
+  background(20);
+
+  if (random(0, 1) < 0.2) {
+    net.addNode(new Node());
+  }
+  net.update();
+  net.display();
+}
+
+function mouseReleased() {
+  pos = createVector(mouseX, mouseY);
+  node = new Node(pos);
+  net.addNode(node);
+  net.update();
+  net.display();
+}
+
+function distance(node1, node2) {
+  let x1 = node1.position.x,
+    y1 = node1.position.y,
+    x2 = node2.position.x,
+    y2 = node2.position.y;
+  return dist(x1, y1, x2, y2)
+}
 
 
-<div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+class Node {
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+  constructor() {
+    let p = random(0, 1);
+    let pos;
+    if (p > height / width ) { // left
+      pos = createVector(0, random(0, height));
+    } else { // top
+      pos = createVector(random(0, width), 0);
+    }
+
+    let v = random(0.5, 2);
+    this.velocity = createVector(v + random(-0.5, 0.5), 2*v);
+    this.position = pos;
+    this.neighbors = [];
+
+  }
+
+  run() {
+    this.position.add(this.velocity);
+  }
+
+  isOut() {
+    if (this.position.x > width || this.position.y > height) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  display() {
+
+    stroke("black");
+    strokeWeight(1);
+    fill(90);
+    let r = 15;
+    circle(this.position.x, this.position.y, r);
+  }
+
+}
+
+class Edge {
+
+  constructor(e1, e2) {
+    this.node1 = e1;
+    this.node2 = e2;
+  }
+
+  display() {
+    let x1 = this.node1.position.x,
+      y1 = this.node1.position.y,
+      x2 = this.node2.position.x,
+      y2 = this.node2.position.y;
+
+    
+    stroke(100, 100, 200,100);
+    strokeWeight(3);
+    line(x1, y1, x2, y2);
+  }
+}
+
+class Triangle {
+
+  constructor(e1, e2, e3) {
+    this.node1 = e1;
+    this.node2 = e2;
+    this.node3 = e3;
+  }
+
+  display() {
+    let x1 = this.node1.position.x,
+      y1 = this.node1.position.y,
+      x2 = this.node2.position.x,
+      y2 = this.node2.position.y,
+      x3 = this.node3.position.x,
+      y3 = this.node3.position.y;
+     
+    strokeWeight(0);
+    fill(0, 0, 255, 100);
+    triangle(x1, y1, x2, y2, x3, y3);
+    }
+
+}
+
+class Network {
+
+  constructor() {
+    this.nodes = [];
+    this.edges = [];
+    this.triangles = [];
+  }
+
+  addNode(node) {
+    this.nodes.push(node);
+  }
+
+  addEdge(edge) {
+    this.edges.push(edge);
+  }
+
+  addTriangle(triangle) {
+    this.triangles.push(triangle);
+  }
+
+  run() {
+    for (let i = 0; i<=this.nodes.length-1; i++) {
+      let node = this.nodes[i];
+      node.run();
+
+      if (node.isOut()) {
+        this.nodes.splice(i, 1); // delete node
+      }
+    }
+  }
+
+  update() {
+
+    // make nodes move
+    this.run();
+
+    // upate edges and triangles accordingly
+    this.edges = [];
+    this.triangles = [];
+
+    // loop through all possible edges
+    for (let i = 0; i<= this.nodes.length - 1; i++) {
+      for (let j = 0; j < i; j++) {
+        let node1 = this.nodes[i];
+        let node2 = this.nodes[j];
+
+        // if nodes are close enough, add edge
+        if (distance(node1, node2) <= d) {
+          let edge = new Edge(node1, node2);
+          this.addEdge(edge);
+        }
+
+        // add triangles (not efficient)
+        for (let k = 0; k < j; k++) {
+            let node3 = this.nodes[k];
+
+            let dist12 = distance(node1, node2);
+            let dist23 = distance(node2, node3);
+            let dist31 = distance(node3, node1);
+
+            if (dist12 <= d && dist23 <=d && dist31 <=d) {
+              let triangle = new Triangle(node1, node2, node3);
+              this.addTriangle(triangle);
+            }
+        }       
+      }
+    }
+  }
+
+  display() {
+
+    // draw triangles
+    for (let i = 0; i <= this.triangles.length - 1; i++) {
+      let triangle = this.triangles[i];
+      triangle.display();
+    }
+
+    // draw edges
+    for (let i = 0; i <= this.edges.length - 1; i++) {
+      let edge = this.edges[i];
+      edge.display();
+    }
+    // draw nodes
+    for (let i = 0; i <= this.nodes.length - 1; i++) {
+      let node = this.nodes[i];
+      node.display();
+    }
 
 
-<div class="img_row">
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+  }
 
+}
+</script>
 
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-<div class="img_row">
-    <img class="col two left" src="/img/6.jpg"/>
-    <img class="col one left" src="/img/11.jpg"/>
-</div>
