@@ -8,7 +8,7 @@ years: [2019, 2018, 2014]
 
 ## preprints
 
-{% bibliography -f preprints %}
+{% bibliography -f papers -q @unpublished %}
 
 ## publications
 
