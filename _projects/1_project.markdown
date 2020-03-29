@@ -5,9 +5,9 @@ description: Synchronisation with time-varying parameters
 img: 
 ---
 
-Synchronisation is a well-known phenomenon that plays a key role in physics, biology, and neuroscience, to cite a few. An typical example is when people in an audience clap in unison, because of their (audio and visual) interactions, or when heart cells synchronise to make the heart beat. A lot of theoretical work exists on synchronisation, but mostly considers the frequencies of each unit to be constant. In nature, and in living systems in particular, however, frequencies change all the time. Imagine how our heartbeat changes when we are calm, stressed, or scared. 
+*Synchronisation* is a well-known phenomenon that plays a key role in physics, biology, and neuroscience, to cite a few. A typical example is when people in an audience clap in unison, because of their (audio and visual) *interactions*, or when heart cells synchronise to make the heart beat. A lot of theoretical work exists on synchronisation, but mostly considers the frequencies of each unit to be constant. In nature, and in living systems in particular, however, *frequencies change all the time*. Imagine how our heartbeat changes when we are calm, stressed, or scared. 
 
-This is what motivates our studies on synchronisation between oscillators with time-varying parameters. In particular, in different studies, we consider time-varying frequencies, coupling strenghts, and network structure. 
+This is what motivates our studies on *synchronisation* between oscillators *with time-varying parameters*. In particular, in different studies, we consider time-varying frequencies, coupling strenghts, and network structure. 
 
 More formally, an example system we considered is the following: a network driven by an oscillator with a time-varying frequency,
 
