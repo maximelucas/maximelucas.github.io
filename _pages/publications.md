@@ -19,4 +19,4 @@ years: [2019, 2018, 2014]
 
 ## theses
 
-{% bibliography -f theses %}
+{% bibliography -f papers -q @phdthesis %}
