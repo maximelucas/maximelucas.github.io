@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project 1
+title: Varying Sync
 description: Synchronisation with time-varying parameters
 img: 
 ---
