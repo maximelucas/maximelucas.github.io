@@ -3,7 +3,6 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-years: [2019, 2018, 2014]
 ---
 
 ## preprints
