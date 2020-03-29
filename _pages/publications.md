@@ -6,17 +6,17 @@ description:
 years: [2019, 2018, 2014]
 ---
 
-## Preprints
+## preprints
 
 {% bibliography -f preprints %}
 
-## Publications
+## publications
 
 {% for y in page.years %}
   <h3 class="year">{{y}}</h3>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-## Theses
+## theses
 
 {% bibliography -f theses %}
