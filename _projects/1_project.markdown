@@ -18,3 +18,7 @@ This page is about my work on synchronisation of networks of oscillators with ti
 - Lucas, M., Newman, J., & Stefanovska, A. (2018). Stabilization of dynamics of oscillatory systems by nonautonomous perturbation. Physical Review E, 97(4), 042209.
 
 as well as in my PhD thesis.
+
+#### References
+
+{% bibliography -f papers -q @*[project=nonautonomous_sync] %}
