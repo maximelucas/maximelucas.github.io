@@ -92,8 +92,7 @@ Test integration ofJupyter Notebook widget: 1
     }
 }
 </script>
-</head>
-<body>
+
 
 <script type="application/vnd.jupyter.widget-view+json">
 {
@@ -103,6 +102,5 @@ Test integration ofJupyter Notebook widget: 1
 }
 </script>
 
-</body>
-</html>
+
 
