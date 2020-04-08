@@ -5,7 +5,7 @@ description: widget integration
 img: 
 ---
 
-Test integration ofJupyter Notebook widget: 1
+Test integration ofJupyter Notebook widget: 2
 
 <!-- Load require.js. Delete this if your page already loads require.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
