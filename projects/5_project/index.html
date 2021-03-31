@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Maxime Lucas | Project 5</title>
+  <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/5_project/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Maxime</strong> Lucas
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+        <!--<a class="page-link" href="/blog/">blog</a> -->
+
+        <!-- Pages -->
+        
+        
+          
+        
+        
+        
+          
+            
+          
+        
+        
+        
+          
+              
+              <a class="page-link" href="/cv/">CV</a>
+            
+          
+        
+        
+        
+          
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+              
+              <a class="page-link" href="/projects/">projects</a>
+            
+          
+        
+        
+        
+          
+              
+              <a class="page-link" href="/publications/">publications</a>
+            
+          
+        
+        
+        
+          
+        
+        
+        
+          
+        
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+        
+        <!-- Contact -->
+        <a class="page-link" href="/contact/">contact</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Project 5</h1>
+    <h5 class="post-description">Higher-order syncronisation</h5>
+  </header>
+
+  <article class="post-content Project 5 clearfix">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+
+<p>Page in construction.</p>
+
+<div id="sketch"> </div>
+<p>This is a first test. Play around with it!</p>
+
+<script>
+let width;
+let height;
+let N;
+let net;
+let d;
+
+function setup() {
+
+  width = 640;
+  height = 480;
+  let canvas = createCanvas(width, height);
+  canvas.parent("sketch");
+
+  net = new Network();
+  N = 3; // initial number of nodes
+  d = 100; // distance under which to connect nodes
+
+  for (let i = 0; i <= 2; i++) {
+
+    pos = createVector(random(0,width), random(0, height));
+    node = new Node(pos);
+    net.addNode(node);
+  }
+
+  net.update();
+  net.display();
+}
+
+function draw() {
+  background(20);
+
+  if (random(0, 1) < 0.2) {
+    net.addNode(new Node());
+  }
+  net.update();
+  net.display();
+}
+
+function mouseReleased() {
+  pos = createVector(mouseX, mouseY);
+  node = new Node(pos);
+  net.addNode(node);
+  net.update();
+  net.display();
+}
+
+function distance(node1, node2) {
+  let x1 = node1.position.x,
+    y1 = node1.position.y,
+    x2 = node2.position.x,
+    y2 = node2.position.y;
+  return dist(x1, y1, x2, y2)
+}
+
+
+class Node {
+
+  constructor() {
+    let p = random(0, 1);
+    let pos;
+    if (p > height / width ) { // left
+      pos = createVector(0, random(0, height));
+    } else { // top
+      pos = createVector(random(0, width), 0);
+    }
+
+    let v = random(0.5, 2);
+    this.velocity = createVector(v + random(-0.5, 0.5), 2*v);
+    this.position = pos;
+    this.neighbors = [];
+
+  }
+
+  run() {
+    this.position.add(this.velocity);
+  }
+
+  isOut() {
+    if (this.position.x > width || this.position.y > height) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  display() {
+
+    stroke("black");
+    strokeWeight(1);
+    fill(90);
+    let r = 15;
+    circle(this.position.x, this.position.y, r);
+  }
+
+}
+
+class Edge {
+
+  constructor(e1, e2) {
+    this.node1 = e1;
+    this.node2 = e2;
+  }
+
+  display() {
+    let x1 = this.node1.position.x,
+      y1 = this.node1.position.y,
+      x2 = this.node2.position.x,
+      y2 = this.node2.position.y;
+
+    
+    stroke(100, 100, 200,100);
+    strokeWeight(3);
+    line(x1, y1, x2, y2);
+  }
+}
+
+class Triangle {
+
+  constructor(e1, e2, e3) {
+    this.node1 = e1;
+    this.node2 = e2;
+    this.node3 = e3;
+  }
+
+  display() {
+    let x1 = this.node1.position.x,
+      y1 = this.node1.position.y,
+      x2 = this.node2.position.x,
+      y2 = this.node2.position.y,
+      x3 = this.node3.position.x,
+      y3 = this.node3.position.y;
+     
+    strokeWeight(0);
+    fill(0, 0, 255, 100);
+    triangle(x1, y1, x2, y2, x3, y3);
+    }
+
+}
+
+class Network {
+
+  constructor() {
+    this.nodes = [];
+    this.edges = [];
+    this.triangles = [];
+  }
+
+  addNode(node) {
+    this.nodes.push(node);
+  }
+
+  addEdge(edge) {
+    this.edges.push(edge);
+  }
+
+  addTriangle(triangle) {
+    this.triangles.push(triangle);
+  }
+
+  run() {
+    for (let i = 0; i<=this.nodes.length-1; i++) {
+      let node = this.nodes[i];
+      node.run();
+
+      if (node.isOut()) {
+        this.nodes.splice(i, 1); // delete node
+      }
+    }
+  }
+
+  update() {
+
+    // make nodes move
+    this.run();
+
+    // upate edges and triangles accordingly
+    this.edges = [];
+    this.triangles = [];
+
+    // loop through all possible edges
+    for (let i = 0; i<= this.nodes.length - 1; i++) {
+      for (let j = 0; j < i; j++) {
+        let node1 = this.nodes[i];
+        let node2 = this.nodes[j];
+
+        // if nodes are close enough, add edge
+        if (distance(node1, node2) <= d) {
+          let edge = new Edge(node1, node2);
+          this.addEdge(edge);
+        }
+
+        // add triangles (not efficient)
+        for (let k = 0; k < j; k++) {
+            let node3 = this.nodes[k];
+
+            let dist12 = distance(node1, node2);
+            let dist23 = distance(node2, node3);
+            let dist31 = distance(node3, node1);
+
+            if (dist12 <= d && dist23 <=d && dist31 <=d) {
+              let triangle = new Triangle(node1, node2, node3);
+              this.addTriangle(triangle);
+            }
+        }       
+      }
+    }
+  }
+
+  display() {
+
+    // draw triangles
+    for (let i = 0; i <= this.triangles.length - 1; i++) {
+      let triangle = this.triangles[i];
+      triangle.display();
+    }
+
+    // draw edges
+    for (let i = 0; i <= this.edges.length - 1; i++) {
+      let edge = this.edges[i];
+      edge.display();
+    }
+    // draw nodes
+    for (let i = 0; i <= this.nodes.length - 1; i++) {
+      let node = this.nodes[i];
+      node.display();
+    }
+
+
+  }
+
+}
+</script>
+
+
+  </article>
+
+  
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 Maxime Lucas.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->	
+<script src="/assets/js/common.js"></script>
+
+<!--Added by Maxime-->
+<!--Load p5*.js-->
+<!-- Load Require JS -->	
+<!-- <script src="/assets/js/require.min.js"></script> -->
+
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-142286226-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
