@@ -44,3 +44,4 @@ Do not hesitate to contact me for questions/comments/ideas/.. or just to say hi!
 - dynamical systems
 - complex networks 
 - synchronisation
+

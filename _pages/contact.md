@@ -8,7 +8,6 @@ order: 5
 social: true
 ---
 
-
 **Email:** maxime.lucas [at] centai.eu  
 
 **Postal adress:**  

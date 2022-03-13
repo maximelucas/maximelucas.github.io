@@ -33,4 +33,3 @@ The symbol '\*' indicates that the authors contributed equally.
 <div class="publications">
 {% bibliography -f papers -q @phdthesis @mastersthesis %}
 </div>
-
