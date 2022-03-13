@@ -10,6 +10,11 @@ social: true
 
 **Email:** maxime.lucas [at] centai.eu  
 
+<<<<<<< HEAD
+=======
+**Email:** maxime.lucas [at] isi.it   
+
+>>>>>>> 257a4eb5 (minors fixes)
 **Postal adress:**  
 Maxime Lucas  
 CENTAI  
