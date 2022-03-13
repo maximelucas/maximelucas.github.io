@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-06-17 16:52:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Very excited to start my postdoc today at Aix-Marseille University! I will work with Alain Barrat, Bianca Habermann, and Laurent Tichit on higher-order network models in biology.

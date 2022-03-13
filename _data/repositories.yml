@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - maximelucas
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+- xgi-org/xgi
+  - maximelucas/HOI_shape_sync_differently
+  - maximelucas/AMCOS_booklet
+  - maximelucas/multiorder_Laplacian
