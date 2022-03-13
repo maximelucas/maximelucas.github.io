@@ -1,83 +1,164 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@unpublished{zhang2022do,
+  title={Do higher-order interactions promote synchronization?},
+  author={Zhang,Y. * and Lucas, M. * and Battiston, F.},
+  year={2022},
+  arxiv={2203.03060},
+  code={https://github.com/maximelucas/higherorder_sync_promoted},
+  abstract={Higher-order interactions, through which three or more entities interact simultaneously, are important to the faithful modeling of many real-world complex systems. Recent efforts have focused on elucidating the effects of these nonpairwise interactions on the collective behaviors of coupled systems. Interestingly, several examples of higher-order interactions promoting synchronization have been found, raising speculations that this might be a general phenomenon. Here, we demonstrate that even for simple systems such as Kuramoto oscillators, the effects of higher-order interactions are highly nuanced. In particular, we show numerically and analytically that hyperedges typically enhance synchronization in random hypergraphs, but have the opposite effect in simplicial complexes. As an explanation, we identify higher-order degree heterogeneity as the key structural determinant of synchronization stability in systems with a fixed coupling budget. Typical to nonlinear systems, we also capture regimes where pairwise and nonpairwise interactions synergize to optimize synchronization. Our work contributes to a better understanding of dynamical systems with structured higher-order interactions.},
+  project={higher-order_sync}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@unpublished{lucas2021inferring,
+  title={Inferring cell cycle phases from a partially temporal network of protein interactions},
+  author={Lucas, M. and Morris, A. and Townsend-Teague, A. and Tichit, L. and Habermann, B. H. and Barrat, A.},
+  year={2021},
+  biorxiv={10.1101/2021.03.26.437187v1},
+  code={https://gitlab.com/habermann_lab/phasik},
+  doi={10.1101/2021.03.26.437187},
+  abstract={The temporal organisation of biological systems into phases and subphases is often crucial to their functioning. Identifying this multiscale organisation can yield insight into the underlying biological mechanisms at play. To date, however, this identification requires a priori biological knowledge of the system under study. Here, we recover the temporal organisation of the cell cycle of budding yeast into phases and subphases, in an automated way. To do so, we model the cell cycle as a partially temporal network of protein-protein interactions (PPIs) by combining a traditional static PPI network with protein concentration or RNA expression time series data. Then, we cluster the snapshots of this temporal network to infer phases, which show good agreement with our biological knowledge of the cell cycle. We systematically test the robustness of the approach and investigate the effect of having only partial temporal information. The generality of the method makes it suitable for application to other, less well-known biological systems for which the temporal organisation of processes plays an important role.},
+  project={"temporal_cell_cycle"}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
+
+@article{newman2021stabilization,
+  title={Stabilization of cyclic processes by slowly varying forcing},
+  author={Newman, J. and Lucas, M. and Stefanovska, A.},
+  journal={Chaos},
+  volume={31},
+  number={12},
+  pages={123129},
+  year={2021},
+  publisher={AIP Publishing LLC},
+  doi={10.1063/5.0066641},
+  code={https://doi.org/10.17635/lancaster/researchdata/292},
+  abstract={We introduce a new mathematical framework for the qualitative analysis of dynamical stability, designed particularly for finite-time processes subject to slow-timescale external influences. In particular, our approach is to treat finite-time dynamical systems in terms of a slow–fast formalism in which the slow time only exists in a bounded interval, and consider stability in the singular limit. Applying this to one-dimensional phase dynamics, we provide stability definitions somewhat analogous to the classical infinite-time definitions associated with Aleksandr Lyapunov. With this, we mathematically formalize and generalize a phase-stabilization phenomenon previously described in the physics literature for which the classical stability definitions are inapplicable and instead our new framework is required.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@incollection{lucas2021synchronisation,
+  title={Synchronisation and Non-autonomicity},
+  author={Lucas, M. and Newman, J. and Stefanovska, A.},
+  booktitle={Physics of Biological Oscillators},
+  pages={85--110},
+  year={2021},
+  publisher={Springer},
+  doi={10.1007/978-3-030-59805-1_6},
+  abstract={Thermodynamic openness is key to the long-term stability of living systems and can yield rich dynamical behaviours. Here, we model openness in coupled oscillator systems by introducing an external driving with time-varying parameters. Five systems of increasing complexity are considered: three cases of single driven oscillators followed by two cases of driven networks. We show how the time-varying parameters can enlarge the range of other parameters for which synchronous behaviour is stable. In addition, it can yield additional behaviours such as intermittent synchronisation. The stability of these systems is analysed via short- and long-time Lyapunov exponents, both analytically and numerically. The different dynamical regimes are also described via time-frequency representation. Finally, we compare the stabilising effect of deterministic non-autonomous driving to that of bounded noise. All in all, we give an overview of some effects time-varying parameters can have on synchronisation. These effects could be a key to understand how living systems maintain stability in the face of their ever-changing environment.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@incollection{newman2021non,
+  title={Non-asymptotic-time Dynamics},
+  author={Newman, J, and Lucas, M. and Stefanovska, A.},
+  booktitle={Physics of Biological Oscillators},
+  pages={111--129},
+  year={2021},
+  publisher={Springer},
+  doi={10.1007/978-3-030-59805-1_7},
+  abstract={Traditional analysis of dynamics concerns coordinate-invariant features of the long-time-asymptotic behaviour of a system. Using the non-autonomous Adler equation with slowly varying forcing, we illustrate three of the limitations of this traditional approach. We discuss an alternative, “slow-fast finite-time dynamical systems” approach, that is more suitable for slowly time-dependent one-dimensional phase dynamics, and is likely to be suitable for more general dynamics of open systems involving two or more timescales.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@article{lucas2020multi,
+  title={Multiorder Laplacian for synchronization in higher-order networks},
+  author={Lucas, M. and Cencetti, G. and Battiston, F.},
+  journal = {Phys. Rev. Res.},
+  volume = {2},
+  number = {3},
+  pages = {033410},
+  numpages = {14},
+  year = {2020},
+  doi = {10.1103/PhysRevResearch.2.033410},
+  year={2020},
+  arxiv={2003.09734},
+  abstract={The emergence of synchronization in systems of coupled agents is a pivotal phenomenon in physics, biology, computer science, and neuroscience. Traditionally, interaction systems have been described as networks, where links encode information only on the pairwise influences among the nodes. Yet, in many systems, interactions among the units take place in larger groups. Recent work has shown that the presence of higher-order interactions between oscillators can significantly affect the emerging dynamics. However, these early studies have mostly considered interactions up to four oscillators at time, and analytical treatments are limited to the all-to-all setting. Here, we propose a general framework that allows us to effectively study populations of oscillators where higher-order interactions of all possible orders are considered, for any complex topology described by arbitrary hypergraphs, and for general coupling functions. To this end, we introduce a multiorder Laplacian whose spectrum determines the stability of the synchronized solution. Our framework is validated on three structures of interactions of increasing complexity. First, we study a population with all-to-all interactions at all orders, for which we can derive in a full analytical manner the Lyapunov exponents of the system, and for which we investigate the effect of including attractive and repulsive interactions. Second, we apply the multiorder Laplacian framework to synchronization on a synthetic model with heterogeneous higher-order interactions. Finally, we compare the dynamics of coupled oscillators with higher-order and pairwise couplings only, for a real dataset describing the macaque brain connectome, highlighting the importance of faithfully representing the complexity of interactions in real-world systems. Taken together, our multiorder Laplacian allows us to obtain a complete analytical characterization of the stability of synchrony in arbitrary higher-order networks, paving the way toward a general treatment of dynamical processes beyond pairwise interactions.},
+  project={higher-order_sync}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+
+@article{battiston2020networks,
+  title={Networks beyond pairwise interactions: structure and dynamics},
+  author={Battiston, F. and Cencetti, G. and Iacopini, I. and Latora, V. and Lucas, M. and Patania, A. and Young, J.-G. and Petri, G.},
+  journal={Phys. Rep.},
+  year={2020},
+  volume = "874",
+  pages = "1--92",
+  publisher={Elsevier},
+  doi={10.1016/j.physrep.2020.05.004},
+  arxiv={2006.01764},
+  abstract={The complexity of many biological, social and technological systems stems from the richness of the interactions among their units. Over the past decades, a variety of complex systems has been successfully described as networks whose interacting pairs of nodes are connected by links. Yet, from human communications to chemical reactions and ecological systems, interactions can often occur in groups of three or more nodes and cannot be described simply in terms of dyads. Until recently little attention has been devoted to the higher-order architecture of real complex systems. However, a mounting body of evidence is showing that taking the higher-order structure of these systems into account can enhance our modeling capacities and help us understand and predict their dynamical behavior. Here we present a complete overview of the emerging field of networks beyond pairwise interactions. We discuss how to represent higher-order interactions and introduce the different frameworks used to describe higher-order systems, highlighting the links between the existing concepts and representations. We review the measures designed to characterize the structure of these systems and the models proposed to generate synthetic structures, such as random and growing bipartite graphs, hypergraphs and simplicial complexes. We introduce the rapidly growing research on higher-order dynamical systems and dynamical topology, discussing the relations between higher-order interactions and collective behavior. We focus in particular on new emergent phenomena characterizing dynamical processes, such as diffusion, synchronization, spreading, social dynamics and games, when extended beyond pairwise interactions. We conclude with a summary of empirical applications, and an outlook on current modeling and conceptual frontiers.},
+  project={higher-order_sync}
 }
+
+
+@phdthesis{lucas2019synchronisation,
+title = "Synchronisation and stability in nonautonomous oscillatory systems",
+abstract = "Many natural and artificial systems can be modelled by ensembles of coupled oscillators. These types of systems can exhibit various synchronisation phenomena, where the interaction between the oscillators leads them to some kind of coherent behaviour, despite heterogeneities in the system. Moreover, many such systems are subject to a timevariable environment which effectively drives them. Many examples can be found in living systems, e.g., the dynamics of a cell is strongly dependent on the ever-changing intra- and extra-cellular ionic concentrations.Motivated by these considerations, this thesis investigates the effect of time-varying parameters on synchronisation and stability in ensembles of coupled oscillators. Timevariability is a crucial ingredient of the dynamics of many real-life systems, and interest in it is only recently starting to grow. Such systems are in general described by nonautonomous equations, which are hard to treat in general. This present work aims at answering questions such as: Can time-variability be detrimental/beneficial to synchronisation? If so, under which conditions? Can time-variability seed new dynamical phenomena? How can one best treat nonautonomous systems?The systems studied can be divided into two categories. First, the effect of a driving oscillator with a time-varying frequency is investigated. It is shown that increasing the amplitude of the frequency modulation can increase the size of the stability region in parameter space, under general assumptions. Short-term dynamics and stability properties are also investigated, and their dynamics is shown to be of importance. Second, the effect of time-varying couplings between the oscillators is considered. This is shown to be able to make the synchronous state unstable and yield oscillation death.Overall, the thesis illustrates that time-variability can be either beneficial or detrimental to synchronous dynamics, and investigates in detail and gives insight about cases of both. It argues towards the general fact that short-term dynamics is often crucial to a physically relevant understanding of nonautonomous systems.",
+author = "Lucas, M.",
+year = "2019",
+doi = "10.17635/lancaster/thesis/502",
+language = "English",
+publisher = "Lancaster University",
+school = "Lancaster University",
+pdf= {2019phdlucas.pdf},
+project={nonautonomous_sync},
+}
+
+
+@article{lucas2019nonautonomous,
+  title = {Nonautonomous driving induces stability in network of identical oscillators},
+  author = {Lucas, M. and Fanelli, D. and Stefanovska, A.},
+  journal = {Phys. Rev. E},
+  volume = {99},
+  number = {1},
+  pages = {012309},
+  year = {2019},
+  doi = {10.1103/PhysRevE.99.012309},
+  arxiv={1809.04833},
+  project={nonautonomous_sync},
+  abstract={Nonautonomous driving of an oscillator has been shown to enlarge the Arnold tongue in parameter space, but little is known about the analogous effect for a network of oscillators. To test the hypothesis that deterministic nonautonomous perturbation is a good candidate for stabilizing complex dynamics, we consider a network of identical phase oscillators driven by an oscillator with a slowly time-varying frequency. We investigate both the short- and long-term stability of the synchronous solutions of this nonautonomous system. For attractive couplings we show that the region of stability grows as the amplitude of the frequency modulation is increased, through the birth of an intermittent synchronization regime. For repulsive couplings, we propose a control strategy to stabilize the dynamics by altering very slightly the network topology. We also show how, without changing the topology, time-variability in the driving frequency can itself stabilize the dynamics. As a byproduct of the analysis, we observe chimeralike states. We conclude that time-variability-induced stability phenomena are also present in networks, reinforcing the idea that this is a quite realistic scenario for living systems to use in maintaining their functioning in the face of ongoing perturbations.}
+}
+
+
+@article{lucas2018desynchronization,
+  title={Desynchronization induced by time-varying network},
+  author={Lucas, M. and Fanelli, D. and Carletti, T. and Petit, J.},
+  journal={Europhys. Lett.},
+  volume={121},
+  number={5},
+  pages={50008},
+  year={2018},
+  publisher={IOP Publishing},
+  doi={10.1209/0295-5075/121/50008},
+  arxiv={1802.06580},
+  project={nonautonomous_sync},
+  abstract={The synchronous dynamics of an array of excitable oscillators, coupled via a generic graph, is studied. Non-homogeneous perturbations can grow and destroy synchrony, via a self-consistent instability which is solely instigated by the intrinsic network dynamics. By acting on the characteristic time-scale of the network modulation, one can make the examined system to behave as its (partially) averaged analogue. This result is formally obtained by proving an extended version of the averaging theorem, which allows for partial averages to be carried out. As a byproduct of the analysis, oscillation death is reported to follow the onset of the network-driven instability.}
+}
+
+
+@article{lucas2018stabilization,
+title={Stabilization of dynamics of oscillatory systems by nonautonomous perturbation},
+author={Lucas, M. and Newman, J. and Stefanovska, A.},
+journal={Phys. Rev. E},
+volume={97},
+number={4},
+pages={042209},
+year={2018},
+doi={10.1103/PhysRevE.97.042209},
+arxiv={1803.11392},
+project={nonautonomous_sync},
+abstract={Synchronization and stability under periodic oscillatory driving are well understood, but little is known about the effects of aperiodic driving, despite its abundance in nature. Here, we consider oscillators subject to driving with slowly varying frequency, and investigate both short-term and long-term stability properties. For a phase oscillator, we find that, counterintuitively, such variation is guaranteed to enlarge the Arnold tongue in parameter space. Using analytical and numerical methods that provide information on time-variable dynamical properties, we find that the growth of the Arnold tongue is specifically due to the growth of a region of intermittent synchronization where trajectories alternate between short-term stability and short-term neutral stability, giving rise to stability on average. We also present examples of higher-dimensional nonlinear oscillators where a similar stabilization phenomenon is numerically observed. Our findings help support the case that in general, deterministic nonautonomous perturbation is a very good candidate for stabilizing complex dynamics.}
+}
+
+@article{duncan2014verifying,
+  title={Verifying the {Steane} code with {Quantomatic}},
+  author={Duncan, R. and Lucas, M.},
+  journal={Electronic Proceedings in Theoretical Computer Science},
+  volume={171},
+  pages={33--49},
+  year={2014},
+  doi       = "10.4204/EPTCS.171.4",
+  abstract={In this paper we give a partially mechanized proof of the correctness of Steane's 7-qubit error correcting code, using the tool Quantomatic. To the best of our knowledge, this represents the largest and most complicated verification task yet carried out using Quantomatic.}
+}
+
