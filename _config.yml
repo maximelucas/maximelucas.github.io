@@ -6,8 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Maxime
 middle_name: 
 last_name: Lucas
+<<<<<<< HEAD
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
+=======
+email: maxime.lucas@isi.it
+>>>>>>> 2a052d96 (minors fixes)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

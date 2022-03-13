@@ -2,16 +2,16 @@
 layout: page
 permalink: /contact/
 title: contact
-description: How to find me
+description: 
 nav: true
 order: 5
 social: true
 ---
 
 
-Email: maxime.lucas [at] isi.it   
+**Email:** maxime.lucas [at] isi.it   
 
-Postal adress:
+**Postal adress:**  
 Maxime Lucas  
 ISI Foundation  
 Institute for Scientific Interchange  
