@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Higher-order sync
-description: 
+description: Sync with group interactions
 img: 
-importance: 3
+importance: 2
 category: work
 ---
 
