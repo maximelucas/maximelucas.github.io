@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Time-varying sync
-description: 
+description: sync with time-varying parameters
 img: 
 importance: 1
 category: work
