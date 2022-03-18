@@ -2,8 +2,13 @@
 layout: page
 title: Time-varying sync
 description: sync with time-varying parameters
+<<<<<<< HEAD:_projects/TV_sync.md
 img: logo_tv_sync.png
 importance: 5
+=======
+img: 
+importance: 1
+>>>>>>> 8f38c297 (added xgi project):_projects/1_project.md
 category: work
 ---
 
