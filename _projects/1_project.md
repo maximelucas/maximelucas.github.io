@@ -27,13 +27,13 @@ This was my PhD project, and you can find more information about it in the refer
 {% bibliography -f papers -q @article[project=nonautonomous_sync] %}
 </div>
 
-#### Book chapters 
+##### Book chapters 
 
 <div class="publications">
 {% bibliography -f papers -q @incollection[project=nonautonomous_sync] %}
 </div>
 
-#### PhD thesis
+##### PhD thesis
 
 <div class="publications">
 {% bibliography -f papers -q @phdthesis[project=nonautonomous_sync] %}
