@@ -1,5 +1,8 @@
 // let JSONFILENAME = {{'collab_net.json'| prepend: '/assets/viz_collab_net/' | relative_url }}
-let JSONFILENAME = "{{ site.url }}assets/viz_collab_net/collab_net.json"
+// let JSONFILENAME = "{{ site.url }}assets/viz_collab_net/collab_net.json"
+let JSONFILENAME = "https://maximelucas.github.io/assets/viz_collab_net/collab_net.json"
+// {{ 'collab_net.json' | prepend: 'assets/viz_collab_net/' | prepend: site.url }}
+
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
