@@ -8,7 +8,7 @@ category: other
 ---
 
 
-{{ site.url }}/assets/viz_collab_net/forceLayoutTooltip.js"
+{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js"
 
 
 <style>
@@ -52,7 +52,7 @@ div.tooltip {
 
 
 <!--  this script does all the actual work -->
-<script type="text/javascript" src="{{'forceLayoutTooltip.js'| prepend: '/assets/viz_collab_net/' | relative_url }}"></script>
+<script type="text/javascript" src="{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js"></script>
 
 
 ### did it work? 
