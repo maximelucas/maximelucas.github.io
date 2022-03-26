@@ -1,6 +1,7 @@
 ---
 layout: page
 title: collab net
+<<<<<<< HEAD
 description: interactive visualisation of my collaboration network
 img:
 importance: 1
