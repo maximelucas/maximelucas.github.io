@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+    font: 20px sans-serif;
+    background: lightgray;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+
+}
+
+</style>
+
+
+<h1> Exemplary Collaboration Network </h1>
+<h2> with tooltip</h2>
+
+<!--into this svg the illustration will be drawn -->
+
+<svg width="500" height="500"></svg>
+
+
+<!--  we call the d3 library -->
+<script type="text/javascript" src="./d3.v4.min.js"></script>
+
+
+<!--  this script does all the actual work -->
+<script type="text/javascript" src="./forceLayoutTooltip.js"></script>
+
+
+<h2> did it work?</h2>
