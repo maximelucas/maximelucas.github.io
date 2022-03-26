@@ -8,7 +8,7 @@ category: other
 ---
 
 
-{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js"
+{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js
 
 
 <style>
