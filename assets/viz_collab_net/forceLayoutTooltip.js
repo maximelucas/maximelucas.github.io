@@ -14,7 +14,7 @@ var color = d3.scaleOrdinal().range(["silver", "#cc0000", "green"]);    //B71C1C
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
-    .force("charge", d3.forceManyBody().distanceMin(0).distanceMax(500).strength(-80))
+    .force("charge", d3.forceManyBody().distanceMin(10).distanceMax(500).strength(-70))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 // Define the div for the tooltip
@@ -40,18 +40,44 @@ d3.json(JSONFILENAME, function(error, graph) {
     .attr("r", 7)
     .attr("fill", function(d) { return color(d.group); })
     .on("mouseover", function(d) {
-            div.transition()
-                .duration(100)
-                .style("opacity", .9);
-            div	.html(d.name)
-                .style("left", (d3.event.pageX) + "px")
-                .style("top", (d3.event.pageY - 28) + "px");
-            })
+        div.transition()
+            .duration(100)
+            .style("opacity", .9);
+        div	.html(d.name)
+            .style("left", (d3.event.pageX) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        // make node bigger    
+        d3.select(this).transition()
+            .duration(200)
+            .attr("r", 11);
+        // make attached edges red and thicker
+        link.style('stroke-width', function(l) {
+        if (d === l.source || d === l.target)
+            return 4;
+        });
+        link.style('stroke', function(l) {
+        if (d === l.source || d === l.target)
+            return "#cc0000";
+        });
+    })
     .on("mouseout", function(d) {
-                    div.transition()
-                        .duration(1000)
-                        .style("opacity", .0);
-                    })
+        div.transition()
+            .duration(1000)
+            .style("opacity", .0);
+        // make node normal size again
+        d3.select(this).transition()
+            .duration(200)
+            .attr("r", 7);                
+        // make attached edges red and thicker
+        link.style('stroke-width', function(l) {
+        if (d === l.source || d === l.target)
+            return 2;
+        });
+        link.style('stroke', function(l) {
+        if (d === l.source || d === l.target)
+            return color(d.group);
+            });
+    })          
     .call(d3.drag()
     .on("start", dragstarted)
     .on("drag", dragged)
