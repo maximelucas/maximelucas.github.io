@@ -11,6 +11,9 @@ category: other
 =======
 
 {{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js
+{{ site.url }}assets/viz_collab_net/collab_net.json
+
+{{ 'collab_net.json' | prepend: '/assets/viz_collab_net/' | prepend: site.url }}
 
 
 >>>>>>> 8a2f1bba (reduced size of social icons)

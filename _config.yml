@@ -361,7 +361,19 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
+<<<<<<< HEAD
     webp: "-quality 85"
+=======
+    webp: "-resize 800x"
+
+# -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+# jekyll-diagrams:
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
+>>>>>>> 290afb4c (fix interal href try again)
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
