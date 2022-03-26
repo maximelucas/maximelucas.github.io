@@ -71,7 +71,7 @@ d3.json(JSONFILENAME, function(error, graph) {
         });
         link.style('stroke', function(l) {
         if (d === l.source || d === l.target)
-            return #999;
+            return "#999";
             });
     })          
     .call(d3.drag()
