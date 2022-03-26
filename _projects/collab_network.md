@@ -36,9 +36,12 @@ div.tooltip {
 
 </style>
 
+In this visualisation, my academic publications are represented by red nodes and my co-authors by grey nodes. 
+Each person is linked to the publications they are a co-author of.
+
+This was inspired by [Florian Klimm's code](https://github.com/floklimm/collaborationNetworkIllustration).
+
 <!--into this svg the illustration will be drawn -->
-
-
 <svg width="500" height="500"></svg>
 
 
