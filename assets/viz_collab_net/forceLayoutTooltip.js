@@ -1,8 +1,4 @@
-// let JSONFILENAME = {{'collab_net.json'| prepend: '/assets/viz_collab_net/' | relative_url }}
-// let JSONFILENAME = "{{ site.url }}assets/viz_collab_net/collab_net.json"
 let JSONFILENAME = "https://maximelucas.github.io/assets/viz_collab_net/collab_net.json"
-// {{ 'collab_net.json' | prepend: 'assets/viz_collab_net/' | prepend: site.url }}
-
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -71,11 +67,11 @@ d3.json(JSONFILENAME, function(error, graph) {
         // make attached edges red and thicker
         link.style('stroke-width', function(l) {
         if (d === l.source || d === l.target)
-            return 2;
+            return 3;
         });
         link.style('stroke', function(l) {
         if (d === l.source || d === l.target)
-            return color(d.group);
+            return #999;
             });
     })          
     .call(d3.drag()
