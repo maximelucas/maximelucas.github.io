@@ -30,7 +30,7 @@ nav_order: 2
 ## theses
 
 <div class="publications">
-{% bibliography -f papers -q @phdthesis %}
+{% bibliography -f papers -q @phdthesis @mastersthesis %}
 </div>
 
 
