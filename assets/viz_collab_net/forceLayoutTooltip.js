@@ -1,4 +1,5 @@
-let JSONFILENAME = {{'collab_net.json'| prepend: '/assets/viz_collab_net/' | relative_url }}
+// let JSONFILENAME = {{'collab_net.json'| prepend: '/assets/viz_collab_net/' | relative_url }}
+let JSONFILENAME = "{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js"
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
