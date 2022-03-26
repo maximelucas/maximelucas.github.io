@@ -7,13 +7,6 @@ importance: 4
 category: other
 ---
 
-
-{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js
-{{ site.url }}assets/viz_collab_net/collab_net.json
-
-{{ 'collab_net.json' | prepend: '/assets/viz_collab_net/' | prepend: site.url }}
-
-
 <style>
 
 .links line {
@@ -57,5 +50,3 @@ div.tooltip {
 <!--  this script does all the actual work -->
 <script type="text/javascript" src="{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js"></script>
 
-
-### did it work? 
