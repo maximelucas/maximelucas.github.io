@@ -9,7 +9,7 @@ social: true
 ---
 
 
-**Email:** maxime.lucas [at] isi.it   
+**Email:** maxime.lucas [at] centai.eu  
 
 **Postal adress:**  
 Maxime Lucas  
