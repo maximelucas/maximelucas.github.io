@@ -8,6 +8,7 @@ order: 2
 ---
 <!-- _pages/publications.md -->
 
+The symbol '\*' indicates that the authors contributed equally.  
 
 ## preprints
 
