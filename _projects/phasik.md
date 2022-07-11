@@ -4,7 +4,7 @@ title: Phasik
 description: the cell cycle as a temporal network 
 img: 
 importance: 4
-category: work
+category: code
 ---
 
 
