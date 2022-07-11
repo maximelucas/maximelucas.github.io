@@ -13,10 +13,13 @@ toc:
 My full CV can be found [here](/assets/cv/Maxime_Lucas-CV-EN.pdf).
 
 #### Current position
-- **Postdoctoral associate**<span style="float:right;">October 2021-Present</span>   
-with Giovanni Petri at ISI Foundation, Turin (Italy)
+- **Postdoctoral associate**<span style="float:right;">June 2022-Present</span>   
+with Giovanni Petri at CENTAI Turin (Italy)
 
-#### Past position
+#### Past positions
+
+- **Postdoctoral associate**<span style="float:right;">October 2021-May 2022</span>   
+with Giovanni Petri at ISI Foundation, Turin (Italy)
 
 - **CENTURI Postdoctoral fellow**<span style="float:right;">June 2019-August 2021</span>   
 with Alain Barrat, Bianca Habermann, and Laurent Tichit at Aix-Marseille University (France) 
