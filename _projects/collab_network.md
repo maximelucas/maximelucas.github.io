@@ -1,9 +1,9 @@
 ---
 layout: page
 title: collab net
-description: Interactive visualisation of my collaboration network
+description: interactive visualisation of my collaboration network
 img:
-importance: 4
+importance: 1
 category: other
 ---
 
