@@ -4,7 +4,7 @@ title: AMCOS booklet
 description: a LaTeX template for conference booklets
 img: 
 redirect: https://github.com/maximelucas/AMCOS_booklet
-importance: 5
+importance: 3
 category: code
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Higher-order sync
-description: Sync with group interactions
+description: sync with group interactions
 img: 
 importance: 2
 category: work
