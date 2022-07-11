@@ -31,4 +31,3 @@ Evidence suggests, though, that *higher-order* interactions, i.e. between more t
 <div class="publications">
 {% bibliography -f papers -q @incollection[project=higher-order_sync] %}
 </div>
-

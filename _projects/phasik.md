@@ -18,7 +18,7 @@ Docs: <https://phasik.readthedocs.io/>
 Code: <https://gitlab.com/habermann_lab/phasik/>.
 =======
 importance: 4
-category: work
+category: code
 ---
 
 Page under construction. 
