@@ -11,12 +11,3 @@ Project CETI (**Ce**tacean **T**ranslation **I**nitiative) aims at deciphering t
 
 Website: <https://www.projectceti.org/>  
 Github: <https://github.com/Project-CETI>  
-
-
-
-#### References
-
-<div class="publications">
-{% bibliography -f papers -q @*[project=ceti] %}
-</div>
-
