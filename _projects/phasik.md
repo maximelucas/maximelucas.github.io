@@ -8,5 +8,5 @@ category: code
 ---
 
 
-Page under construction. 
-See phasik.readthedocs.io and <https://gitlab.com/habermann_lab/phasik/>.
+Docs: <phasik.readthedocs.io>
+Code: <gitlab.com/habermann_lab/phasik/>.
