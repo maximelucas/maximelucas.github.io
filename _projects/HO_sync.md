@@ -10,8 +10,6 @@ category: work
 
 <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
 
-*Page under construction..* 
-
 <div id="sketch"> </div>
 
 *Synchronisation* is a well-known phenomenon that plays a key role in physics, biology, and neuroscience, to cite a few. A typical example is when people in an audience clap in unison, because of their (audio and visual) *interactions*, or when heart cells synchronise to make the heart beat. A lot of theoretical work exists on synchronisation, but mostly considers pairwise interactions. 
@@ -33,8 +31,8 @@ let d;
 
 function setup() {
 
-  width = 640;
-  height = 480;
+  width = 100%;
+  height = 10%;
   let canvas = createCanvas(width, height);
   canvas.parent("sketch");
 
