@@ -1,3 +1,18 @@
+@article{lucas2023inferring,
+  title={Inferring cell cycle phases from a partially temporal network of protein interactions},
+  author={Lucas, M. and Morris, A. and Townsend-Teague, A. and Tichit, L. and Habermann, B. H. and Barrat, A.},
+  year={2023},
+  journal = {Cell Reports Methods},
+  pages = {100397},
+  year = {2023},
+  biorxiv={10.1101/2021.03.26.437187v1},
+  code={https://gitlab.com/habermann_lab/phasik},
+  doi = {https://doi.org/10.1016/j.crmeth.2023.100397},
+  abstract={The temporal organization of biological systems is key for understanding them, but current methods for identifying this organization are often ad hoc and require prior knowledge. We present Phasik, a method that automatically identifies this multiscale organization by combining time series data (protein or gene expression) and interaction data (protein-protein interaction network). Phasik builds a (partially) temporal network and uses clustering to infer temporal phases. We demonstrate the method’s effectiveness by recovering well-known phases and sub-phases of the cell cycle of budding yeast and phase arrests of mutants. We also show its general applicability using temporal gene expression data from circadian rhythms in wild-type and mutant mouse models. We systematically test Phasik’s robustness and investigate the effect of having only partial temporal information. As time-resolved, multiomics datasets become more common, this method will allow the study of temporal regulation in lesser-known biological contexts, such as development, metabolism, and disease.},
+  project={"temporal_cell_cycle"},
+  slides={slides/netbiomed_2021.pdf}
+}
+
 @article{lucas2022simplicially,
   title={Simplicially driven simple contagion},
   author={Lucas, M. * and  Iacopini, I. * and  Robiglio, T. and Barrat, A. and Petri, G.},
@@ -34,20 +49,6 @@
   project={higher-order_sync},
   slides={slides/IPAM22.pdf}, 
   video={https://www.youtube.com/watch?v=1Hh01jxl1bo},
-}
-
-
-@article{lucas2021inferring,
-  title={Inferring cell cycle phases from a partially temporal network of protein interactions},
-  author={Lucas, M. and Morris, A. and Townsend-Teague, A. and Tichit, L. and Habermann, B. H. and Barrat, A.},
-  year={2023},
-  journal={to appear in Cell Rep. Methods},
-  biorxiv={10.1101/2021.03.26.437187v1},
-  code={https://gitlab.com/habermann_lab/phasik},
-  doi={10.1101/2021.03.26.437187},
-  abstract={The temporal organisation of biological systems into phases and subphases is often crucial to their functioning. Identifying this multiscale organisation can yield insight into the underlying biological mechanisms at play. To date, however, this identification requires a priori biological knowledge of the system under study. Here, we recover the temporal organisation of the cell cycle of budding yeast into phases and subphases, in an automated way. To do so, we model the cell cycle as a partially temporal network of protein-protein interactions (PPIs) by combining a traditional static PPI network with protein concentration or RNA expression time series data. Then, we cluster the snapshots of this temporal network to infer phases, which show good agreement with our biological knowledge of the cell cycle. We systematically test the robustness of the approach and investigate the effect of having only partial temporal information. The generality of the method makes it suitable for application to other, less well-known biological systems for which the temporal organisation of processes plays an important role.},
-  project={"temporal_cell_cycle"},
-  slides={slides/netbiomed_2021.pdf}
 }
 
 
