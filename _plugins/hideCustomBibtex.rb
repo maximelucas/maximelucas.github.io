@@ -12,4 +12,8 @@
   end
 end
 
+<<<<<<< HEAD
 Liquid::Template.register_filter(Jekyll::HideCustomBibtex)
+=======
+Liquid::Template.register_filter(Jekyll::HideCustomBibtex)
+>>>>>>> 9e44bfe (added filter to hide bibtex entries)
