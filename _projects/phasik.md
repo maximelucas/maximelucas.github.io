@@ -7,7 +7,6 @@ importance: 2
 category: code
 ---
 
-
 Phasik is a python package that was created to infer temporal phases in temporal networks. 
 It contains various utility classes and functions that can be divided into two main parts:
 1. Build, analyse, and visualise temporal networks from time series data.

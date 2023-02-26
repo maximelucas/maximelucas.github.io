@@ -67,7 +67,6 @@
             {%- capture entrytype -%}PhD thesis at <em>{{entry.school}}</em>,{%- endcapture -%}
           {%- elsif entry.type == "mastersthesis" -%}
             {%- capture entrytype -%}Master's thesis at <em>{{entry.school}}</em>,{%- endcapture -%}
-
           {%- endif -%}
           {%- if author_is_self -%}
             <em>{{author.first}} {{author.last}}</em>
