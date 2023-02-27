@@ -19,7 +19,17 @@ Evidence suggests, though, that *higher-order* interactions, i.e. between more t
 #### References
 
 <div class="publications">
-{% bibliography -f papers -q @*[project=higher-order_sync] %}
+{% bibliography -f papers -q @unpublished[project=higher-order_sync] %}
+</div>
+
+<div class="publications">
+{% bibliography -f papers -q @article[project=higher-order_sync] %}
+</div>
+
+##### Book chapters 
+
+<div class="publications">
+{% bibliography -f papers -q @incollection[project=higher-order_sync] %}
 </div>
 
 <script>

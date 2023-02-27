@@ -3,7 +3,7 @@ layout: page
 permalink: /vitae/
 title: vitae
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 My full CV can be found [here](/assets/cv/Maxime_Lucas-CV-EN.pdf).
