@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 permalink: /vitae/
 title: vitae
 nav: true
