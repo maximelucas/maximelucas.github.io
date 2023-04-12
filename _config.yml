@@ -247,8 +247,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Lucas, Lucas *]
-  first_name: [Maxime, M., M. *]
+  last_name: [Lucas, Lucas*]
+  first_name: [Maxime, M., M.*]
 
   style: apa
   locale: en
