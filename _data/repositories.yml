@@ -2,7 +2,7 @@ github_users:
   - maximelucas
 
 github_repos:
-  - ComplexGroupInteractions/xgi
+  - xgi-org/xgi
   - maximelucas/HOI_shape_sync_differently
   - maximelucas/AMCOS_booklet
   - maximelucas/multiorder_Laplacian
