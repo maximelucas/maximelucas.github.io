@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Spreading models
+title: Group interactions
 description: 
 img: 
-importance: 4
+importance: 3
 category: work
 ---
 
 #### References
 
 <div class="publications">
-{% bibliography -f papers -q @*[project=spreading] %}
+{% bibliography -f papers -q @*[project=higher-order] %}
 </div>
-
