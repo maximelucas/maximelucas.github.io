@@ -18,3 +18,7 @@ Github: <https://github.com/Project-CETI>
 {% bibliography -f papers -q @unpublished[project=ceti] %}
 </div>
 
+<div class="publications">
+{% bibliography -f papers -q @article[project=ceti] %}
+</div>
+
