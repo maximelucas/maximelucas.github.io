@@ -1,4 +1,5 @@
 let JSONFILENAME = "https://maximelucas.github.io/assets/viz_collab_net/collab_net.json"
+//let JSONFILENAME = "collab_net.json"
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),

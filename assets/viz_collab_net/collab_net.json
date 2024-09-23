@@ -246,6 +246,13 @@
             "image": []
         },
         {
+            "id": "A35",
+            "group": 0,
+            "name": "M. Lucas",
+            "url": "https://www.google.com/search?q=M. Lucas",
+            "image": []
+        },
+        {
             "id": "A36",
             "group": 0,
             "name": "J.-G. Young",
@@ -342,195 +349,6 @@
             "name": "A. Barrat",
             "url": "https://www.google.com/search?q=A. Barrat",
             "image": []
-        },
-        {
-            "id": "P0",
-            "group": 1,
-            "name": "Hamiltonian control to desynchronize Kuramoto oscillators with higher-order interactions",
-            "image": [],
-            "url": "https://www.google.com/search?q=Hamiltonian control to desynchronize Kuramoto oscillators with higher-order interactions"
-        },
-        {
-            "id": "P1",
-            "group": 1,
-            "name": "Functional reducibility of higher-order networks",
-            "image": [],
-            "url": "https://www.google.com/search?q=Functional reducibility of higher-order networks"
-        },
-        {
-            "id": "P2",
-            "group": 1,
-            "name": "Higher-order Laplacian Renormalization",
-            "image": [],
-            "url": "https://www.google.com/search?q=Higher-order Laplacian Renormalization"
-        },
-        {
-            "id": "P3",
-            "group": 1,
-            "name": "Synergistic signatures of group mechanisms in higher-order systems",
-            "image": [],
-            "url": "https://www.google.com/search?q=Synergistic signatures of group mechanisms in higher-order systems"
-        },
-        {
-            "id": "P4",
-            "group": 1,
-            "name": "Higher-order connectomics of human brain function reveals local topological signatures of task decoding, individual identification, and behavior",
-            "image": [],
-            "url": "https://www.google.com/search?q=Higher-order connectomics of human brain function reveals local topological signatures of task decoding, individual identification, and behavior"
-        },
-        {
-            "id": "P5",
-            "group": 1,
-            "name": "Deeper but smaller: Higher-order interactions increase linear stability but shrink basins",
-            "image": [],
-            "url": "https://www.google.com/search?q=Deeper but smaller: Higher-order interactions increase linear stability but shrink basins"
-        },
-        {
-            "id": "P6",
-            "group": 1,
-            "name": "On the Benefits of Heterogeneity in Cognitive Stability and Flexibility for Collaborative Task Switching",
-            "image": [],
-            "url": "https://escholarship.org/uc/item/6b47b61g"
-        },
-        {
-            "id": "P7",
-            "group": 1,
-            "name": "Evidence of social learning across symbolic cultural barriers in sperm whales",
-            "image": [],
-            "url": "https://www.google.com/search?q=Evidence of social learning across symbolic cultural barriers in sperm whales"
-        },
-        {
-            "id": "P8",
-            "group": 1,
-            "name": "A unified framework for Simplicial Kuramoto models",
-            "image": [],
-            "url": "https://www.google.com/search?q=A unified framework for Simplicial Kuramoto models"
-        },
-        {
-            "id": "P9",
-            "group": 1,
-            "name": "Phasik: a Python package to identify system states in partially temporal networks",
-            "image": [],
-            "url": "https://www.google.com/search?q=Phasik: a Python package to identify system states in partially temporal networks"
-        },
-        {
-            "id": "P10",
-            "group": 1,
-            "name": "XGI: A Python package for higher-order interaction networks",
-            "image": [],
-            "url": "https://www.google.com/search?q=XGI: A Python package for higher-order interaction networks"
-        },
-        {
-            "id": "P11",
-            "group": 1,
-            "name": "Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes",
-            "image": [],
-            "url": "https://www.google.com/search?q=Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes"
-        },
-        {
-            "id": "P12",
-            "group": 1,
-            "name": "Simplicially driven simple contagion",
-            "image": [],
-            "url": "https://www.google.com/search?q=Simplicially driven simple contagion"
-        },
-        {
-            "id": "P13",
-            "group": 1,
-            "name": "Inferring cell cycle phases from a partially temporal network of protein interactions",
-            "image": [],
-            "url": "https://www.google.com/search?q=Inferring cell cycle phases from a partially temporal network of protein interactions"
-        },
-        {
-            "id": "P14",
-            "group": 1,
-            "name": "Multiorder Laplacian for Kuramoto Dynamics with Higher-Order Interactions",
-            "image": [],
-            "url": "https://www.google.com/search?q=Multiorder Laplacian for Kuramoto Dynamics with Higher-Order Interactions"
-        },
-        {
-            "id": "P15",
-            "group": 1,
-            "name": "Stabilization of cyclic processes by slowly varying forcing",
-            "image": [],
-            "url": "https://www.google.com/search?q=Stabilization of cyclic processes by slowly varying forcing"
-        },
-        {
-            "id": "P16",
-            "group": 1,
-            "name": "Synchronisation and Non-autonomicity",
-            "image": [],
-            "url": "https://www.google.com/search?q=Synchronisation and Non-autonomicity"
-        },
-        {
-            "id": "P17",
-            "group": 1,
-            "name": "Non-asymptotic-time Dynamics",
-            "image": [],
-            "url": "https://www.google.com/search?q=Non-asymptotic-time Dynamics"
-        },
-        {
-            "id": "P18",
-            "group": 1,
-            "name": "Multiorder Laplacian for synchronization in higher-order networks",
-            "image": [],
-            "url": "https://www.google.com/search?q=Multiorder Laplacian for synchronization in higher-order networks"
-        },
-        {
-            "id": "P19",
-            "group": 1,
-            "name": "Networks beyond pairwise interactions: structure and dynamics",
-            "image": [],
-            "url": "https://www.google.com/search?q=Networks beyond pairwise interactions: structure and dynamics"
-        },
-        {
-            "id": "P20",
-            "group": 1,
-            "name": "Synchronisation and stability in nonautonomous oscillatory systems",
-            "image": [],
-            "url": "https://www.google.com/search?q=Synchronisation and stability in nonautonomous oscillatory systems"
-        },
-        {
-            "id": "P21",
-            "group": 1,
-            "name": "Nonautonomous driving induces stability in network of identical oscillators",
-            "image": [],
-            "url": "https://www.google.com/search?q=Nonautonomous driving induces stability in network of identical oscillators"
-        },
-        {
-            "id": "P22",
-            "group": 1,
-            "name": "Desynchronization induced by time-varying network",
-            "image": [],
-            "url": "https://www.google.com/search?q=Desynchronization induced by time-varying network"
-        },
-        {
-            "id": "P23",
-            "group": 1,
-            "name": "Stabilization of dynamics of oscillatory systems by nonautonomous perturbation",
-            "image": [],
-            "url": "https://www.google.com/search?q=Stabilization of dynamics of oscillatory systems by nonautonomous perturbation"
-        },
-        {
-            "id": "P24",
-            "group": 1,
-            "name": "Instabilities in cortical networks with embedded synfire chains",
-            "image": [],
-            "url": "https://www.google.com/search?q=Instabilities in cortical networks with embedded synfire chains"
-        },
-        {
-            "id": "P25",
-            "group": 1,
-            "name": "Instabilit\u00e9s dynamiques de syst\u00e8mes de billards avec interactions rares",
-            "image": [],
-            "url": "https://www.google.com/search?q=Instabilit\u00e9s dynamiques de syst\u00e8mes de billards avec interactions rares"
-        },
-        {
-            "id": "P26",
-            "group": 1,
-            "name": "Verifying the Steane code with Quantomatic",
-            "image": [],
-            "url": "https://www.google.com/search?q=Verifying the Steane code with Quantomatic"
         },
         {
             "id": "P0",
