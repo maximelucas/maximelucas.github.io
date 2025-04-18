@@ -9,16 +9,6 @@
   abstract={Epilepsy is known to drastically alter brain dynamics during seizures (ictal periods), but its effects on background (non-ictal) brain dynamics remain poorly understood. To investigate this, we analyzed an in-house dataset of brain activity recordings from epileptic zebrafish, focusing on two controlled genetic conditions across two fishlines. After using machine learning to segment and label recordings, we applied time-delay embedding and Persistent Homology -- a noise-robust method from Topological Data Analysis (TDA) -- to uncover topological patterns in brain activity. We find that ictal and non-ictal periods can be distinguished based on the topology of their dynamics, independent of genetic condition or fishline, which validates our approach. Remarkably, within a single wild-type fishline, we identified topological differences in non-ictal periods between seizure-prone and seizure-free individuals. These findings suggest that epilepsy leaves detectable topological signatures in brain dynamics even outside of ictal periods. Overall, this study demonstrates the utility of TDA as a quantitative framework to screen for topological markers of epileptic susceptibility, with potential applications across species.}
 }
 
-@unpublished{moriame2024hamiltonian,
-  title={Hamiltonian control to desynchronize Kuramoto oscillators with higher-order interactions},
-  author={Moriamé, M. and Lucas, M. and Carletti, T.},
-  journal={arXiv:2409.13578},
-  year={2024},
-  abstract={Synchronization is a ubiquitous phenomenon in nature. Although it is necessary for the functioning of many systems, too much synchronization can also be detrimental, e.g., (partially) synchronized brain patterns support high-level cognitive processes and bodily control, but hypersynchronization can lead to epileptic seizures and tremors, as in neurodegenerative conditions such as Parkinson's disease. Consequently, a critical research question is how to develop effective pinning control methods capable to reduce or modulate synchronization as needed. Although such methods exist to control pairwise-coupled oscillators, there are none for higher-order interactions, despite the increasing evidence of their relevant role in brain dynamics. In this work, we fill this gap by proposing a generalized control method designed to desynchronize Kuramoto oscillators connected through higher-order interactions. Our method embeds a higher-order Kuramoto model into a suitable Hamiltonian flow, and builds up on previous work in Hamiltonian control theory to analytically construct a feedback control mechanism. We numerically show that the proposed method effectively prevents synchronization. Although our findings indicate that pairwise contributions in the feedback loop are often sufficient, the higher-order generalization becomes crucial when pairwise coupling is weak. Finally, we explore the minimum number of controlled nodes required to fully desynchronize oscillators coupled via an all-to-all hypergraphs.},
-  doi={10.48550/arXiv.2409.13578},
-  project={higher-order},
-  bibtex_show={true},
-}
 
 @unpublished{lucas2024functional,
   title={Functional reducibility of higher-order networks},
@@ -30,6 +20,23 @@
   project={higher-order},
   bibtex_show={true},
   code={https://github.com/maximelucas/hypergraph_reducibility},
+}
+
+@article{moriame2025hamiltonian,
+  title = {Hamiltonian control to desynchronize Kuramoto oscillators with higher-order interactions},
+  author = {Moriam\'e, Martin and Lucas, Maxime and Carletti, Timoteo},
+  journal = {Phys. Rev. E},
+  volume = {111},
+  issue = {4},
+  pages = {044307},
+  numpages = {17},
+  year = {2025},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.111.044307},
+  project={higher-order},
+  bibtex_show={true},
+  abstract={Synchronization is a ubiquitous phenomenon in nature. Although it is necessary for the functioning of many systems, too much synchronization can also be detrimental, e.g., (partially) synchronized brain patterns support high-level cognitive processes and bodily control, but hypersynchronization can lead to epileptic seizures and tremors, as in neurodegenerative conditions such as Parkinson's disease. Consequently, a critical research question is how to develop effective pinning control methods capable to reduce or modulate synchronization as needed. Although such methods exist to control pairwise-coupled oscillators, there are none for higher-order interactions, despite the increasing evidence of their relevant role in brain dynamics. In this work, we fill this gap by proposing a generalized control method designed to desynchronize Kuramoto oscillators connected through higher-order interactions. Our method embeds a higher-order Kuramoto model into a suitable Hamiltonian flow, and builds up on previous work in Hamiltonian control theory to analytically construct a feedback control mechanism. We numerically show that the proposed method effectively prevents synchronization. Although our findings indicate that pairwise contributions in the feedback loop are often sufficient, the higher-order generalization becomes crucial when pairwise coupling is weak. Finally, we explore the minimum number of controlled nodes required to fully desynchronize oscillators coupled via an all-to-all hypergraphs.},
 }
 
 @article{robiglio2025synergistic,
