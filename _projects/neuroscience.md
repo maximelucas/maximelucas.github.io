@@ -2,7 +2,7 @@
 layout: page
 title: Neuroscience
 description: topology of brain signals
-img: assets/img/logo_brain.png
+img: /assets/img/logo_brain.png
 importance: 6
 category: work
 ---

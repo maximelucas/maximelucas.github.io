@@ -2,7 +2,7 @@
 layout: page
 title: fungal networks
 description: structure and growth of arbuscular mycorrhizal fungal networks
-img: assets/img/logo_fungi.png
+img: /assets/img/logo_fungi.png
 importance: 2
 category: work
 ---

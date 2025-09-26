@@ -2,7 +2,7 @@
 layout: page
 title: Group interactions
 description: 
-img: assets/img/logo_hoi.png
+img: 
 importance: 4
 category: work
 ---
