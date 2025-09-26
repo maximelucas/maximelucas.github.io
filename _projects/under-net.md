@@ -4,7 +4,7 @@ title: fungal networks
 description: structure and growth of arbuscular mycorrhizal fungal networks
 img: 
 importance: 2
-2category: work
+category: work
 ---
 
 Branching networks are everywhere in nature — from fungal mycelium to blood vessels. Understanding how they form and function helps us grasp the universal principles behind growth, transport, and resilience in complex systems.
