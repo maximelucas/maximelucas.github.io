@@ -3,7 +3,7 @@ layout: page
 title: Higher-order sync
 description: sync with group interactions
 img: 
-importance: 2
+importance: 1
 category: work
 ---
 
