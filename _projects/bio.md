@@ -2,7 +2,7 @@
 layout: page
 title: Biological networks
 description: protein interactions in cell cycle
-img: 
+img: assets/img/logo_bio.png
 importance: 7
 category: work
 ---
