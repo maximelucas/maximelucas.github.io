@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CETI
+title: Sperm whales
 description: deciphering sperm whale communication
 img: 
 importance: 3
