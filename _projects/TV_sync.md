@@ -2,7 +2,7 @@
 layout: page
 title: Time-varying sync
 description: sync with time-varying parameters
-img: /assets/img/logo_tv_sync.png
+img: logo_tv_sync.png
 importance: 5
 category: work
 ---
