@@ -2,7 +2,7 @@
 layout: page
 title: Higher-order sync
 description: sync with group interactions
-img: logo_hoi_sync.png
+img: assets/img/logo_hoi_sync.png
 importance: 1
 category: work
 ---
