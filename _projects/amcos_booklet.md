@@ -7,4 +7,3 @@ redirect: https://github.com/maximelucas/AMCOS_booklet
 importance: 3
 category: code
 ---
-
