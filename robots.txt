@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://maximelucas.github.io//sitemap.xml
+Sitemap: https://maximelucas.github.io/sitemap.xml
