@@ -26,24 +26,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my page!   
+Welcome! I am a physicist working at the intersection of dynamical systems and networks, with a strong interest in applications to the life sciences. My research combines theory, data analysis, and experiments to explore the complexity of systems such as fungal networks, brains, and animal communication.
 
-I am a physicist with a strong interest in dynamical systems, complex systems, and networks, and their application to the life sciences.  
+I am currently a postdoctoral fellow funded by the FNRS, leading the project **UNDER-NET** on the structure and growth of arbuscular mycorrhizal fungal networks. I am based at the [Namur Institute for Complex Systems](https://www.naxys.be/) (University of Namur) and [UCLouvain](https://uclouvain.be/en/research-institutes/eli/elim/team-mycology.html).
 
-I recently kicked off UNDER-NET, my project about characterising the structure and growth of arbuscular mycorrhizal fungal networks underground. This project is funded by a FNRS fellowship and I am hosted by [Timoteo Carletti](https://directory.unamur.be/staff/tcarlett?_LOCALE_=en) at the [Namur Institute for Complex systems](https://www.naxys.be/) and [Stephane Decklerck](https://uclouvain.be/fr/repertoires/stephan.declerck) at [UCLouvain](https://uclouvain.be/en/research-institutes/eli/elim/team-mycology.html), in Belgium.
+Previously, I was postdoctoral researcher at the [CENTAI Institute](https://centai.eu/) and the [ISI Foundation](https://isi.it) in Turin with [Giovanni Petri](https://lordgrilo.github.io/), and before that at [CENTURI](http://centuri-livingsystems.org/) in Marseille with [Alain Barrat](http://www.cpt.univ-mrs.fr/~barrat/), [Bianca Habermann](http://www.ibdm.univ-mrs.fr/equipe/computational-biology/), and [Laurent Tichit](http://iml.univ-mrs.fr/~tichit/).
+I obtained my PhD as part of the [COSMOS](https://www.uni-potsdam.de/cosmos-itn/) Marie Curie training network co-supervised by [Aneta Stefanovska](https://www.lancaster.ac.uk/physics/about-us/people/aneta-stefanovska) (Lancaster University) and [Duccio Fanelli](https://sites.google.com/site/ducciofanelli1/home) (University of Florence). I also hold an MSc in Physics from Université Libre de Bruxelles and a complementary MSc in Artificial Intelligence from KU Leuven.
 
-<!-- I am currently working on various [projects]({% link _pages/projects.md %}) including theoretical models of dynamical processes on networks (synchronisation, contagion), and the analysis of experimental data such as the brain's electrical activity or whale speech.  -->
+Feel free to reach out for questions, collaborations, or just to say hello!
 
-Previously, I worked with [Giovanni Petri](https://lordgrilo.github.io/) at the [CENTAI Institute](https://centai.eu/) in Turin (Italy), and before that at the [ISI Foundation](https://isi.it). I use a variety of approaches including for example dynamical systems theory, network science, and topological data analysis.
-
-Before that, I worked on temporal networks of proteins with [Alain Barrat](http://www.cpt.univ-mrs.fr/~barrat/), [Bianca Habermann](http://www.ibdm.univ-mrs.fr/equipe/computational-biology/), and [Laurent Tichit](http://iml.univ-mrs.fr/~tichit/) at the interdisciplinary Turing Centre for Living Systems ([CENTURI](http://centuri-livingsystems.org/)) in Marseille (France).   
-
-Before that, during my PhD, I worked on the synchronisation of nonautonomous networks of oscillators. The project was part of [COSMOS](https://www.uni-potsdam.de/cosmos-itn/), a Marie Curie training network, and I was co-supervised by [Aneta Stefanoska](https://www.lancaster.ac.uk/physics/about-us/people/aneta-stefanovska) (Lancaster University, UK) and [Duccio Fanelli](https://sites.google.com/site/ducciofanelli1/home) (University of Florence, Italy). I also hold a Complementary Master's in Artificial Intelligence from KULeuven (Belgium) and a Master's in Physics from Université Libre de Bruxelles (Belgium). 
-
-Do not hesitate to contact me for questions/comments/ideas/.. or just to say hi!
-
-**Research interests:**
-- complex systems 
-- dynamical systems
-- complex networks 
-- synchronisation
+**Research interests**  
+Complex systems · Dynamical systems · Complex networks · Synchronization · Life Sciences
