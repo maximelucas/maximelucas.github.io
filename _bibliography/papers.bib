@@ -19,11 +19,12 @@
   author={Lucas, M. and Gallo, L. and Ghavasieh, A. and Battiston, F. and De Domenico, M.},
   journal={arXiv:2404.08547},
   year={2024},
-  abstract={Empirical complex systems are widely assumed to be characterized not only by pairwise interactions, but also by higher-order (group) interactions that affect collective phenomena, from metabolic reactions to epidemics. Nevertheless, higher-order networks' superior descriptive power -- compared to classical pairwise networks -- comes with a much increased model complexity and computational cost. Consequently, it is of paramount importance to establish a quantitative method to determine when such a modeling framework is advantageous with respect to pairwise models, and to which extent it provides a parsimonious description of empirical systems. Here, we propose a principled method, based on information compression, to analyze the reducibility of higher-order networks to lower-order interactions, by identifying redundancies in diffusion processes while preserving the relevant functional information. The analysis of a broad spectrum of empirical systems shows that, although some networks contain non-compressible group interactions, others can be effectively approximated by lower-order interactions -- some technological and biological systems even just by pairwise interactions. More generally, our findings mark a significant step towards minimizing the dimensionality of models for complex systems},
   doi={10.48550/arXiv.2404.08547},
   project={higher-order},
+  tags={higher-order, structure, dynamics},
   bibtex_show={true},
   code={https://github.com/maximelucas/hypergraph_reducibility},
+  abstract={Empirical complex systems are widely assumed to be characterized not only by pairwise interactions, but also by higher-order (group) interactions that affect collective phenomena, from metabolic reactions to epidemics. Nevertheless, higher-order networks' superior descriptive power -- compared to classical pairwise networks -- comes with a much increased model complexity and computational cost. Consequently, it is of paramount importance to establish a quantitative method to determine when such a modeling framework is advantageous with respect to pairwise models, and to which extent it provides a parsimonious description of empirical systems. Here, we propose a principled method, based on information compression, to analyze the reducibility of higher-order networks to lower-order interactions, by identifying redundancies in diffusion processes while preserving the relevant functional information. The analysis of a broad spectrum of empirical systems shows that, although some networks contain non-compressible group interactions, others can be effectively approximated by lower-order interactions -- some technological and biological systems even just by pairwise interactions. More generally, our findings mark a significant step towards minimizing the dimensionality of models for complex systems},
 }
 
 @article{moriame2025hamiltonian,
@@ -37,6 +38,7 @@
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevE.111.044307},
   project={higher-order_sync},
+  tags={higher-order, sync, dynamics},
   bibtex_show={true},
   abstract={Synchronization is a ubiquitous phenomenon in nature. Although it is necessary for the functioning of many systems, too much synchronization can also be detrimental, e.g., (partially) synchronized brain patterns support high-level cognitive processes and bodily control, but hypersynchronization can lead to epileptic seizures and tremors, as in neurodegenerative conditions such as Parkinson's disease. Consequently, a critical research question is how to develop effective pinning control methods capable to reduce or modulate synchronization as needed. Although such methods exist to control pairwise-coupled oscillators, there are none for higher-order interactions, despite the increasing evidence of their relevant role in brain dynamics. In this work, we fill this gap by proposing a generalized control method designed to desynchronize Kuramoto oscillators connected through higher-order interactions. Our method embeds a higher-order Kuramoto model into a suitable Hamiltonian flow, and builds up on previous work in Hamiltonian control theory to analytically construct a feedback control mechanism. We numerically show that the proposed method effectively prevents synchronization. Although our findings indicate that pairwise contributions in the feedback loop are often sufficient, the higher-order generalization becomes crucial when pairwise coupling is weak. Finally, we explore the minimum number of controlled nodes required to fully desynchronize oscillators coupled via an all-to-all hypergraphs.},
 }
@@ -89,11 +91,12 @@
   author={Zhang, Y. and Skardal, P. S. and Battiston, F. and Petri, G. and Lucas, M.},
   journal={Science Advances},
   year={2024},
-  abstract={A key challenge of nonlinear dynamics and network science is to understand how higher-order interactions influence collective dynamics. Although many studies have approached this question through linear stability analysis, less is known about how higher-order interactions shape the global organization of different states. Here, we shed light on this issue by analyzing the rich patterns supported by identical Kuramoto oscillators on hypergraphs. We show that higher-order interactions can have opposite effects on linear stability and basin stability: they stabilize twisted states (including full synchrony) by improving their linear stability, but also make them hard to find by dramatically reducing their basin size. Our results highlight the importance of understanding higher-order interactions from both local and global perspectives.},
   project={higher-order_sync},
+  tags={higher-order, sync, dynamics, basins},
   bibtex_show={true},
   doi={10.1126/sciadv.ado8049},
   code={https://github.com/maximelucas/basins_and_triangles},
+  abstract={A key challenge of nonlinear dynamics and network science is to understand how higher-order interactions influence collective dynamics. Although many studies have approached this question through linear stability analysis, less is known about how higher-order interactions shape the global organization of different states. Here, we shed light on this issue by analyzing the rich patterns supported by identical Kuramoto oscillators on hypergraphs. We show that higher-order interactions can have opposite effects on linear stability and basin stability: they stabilize twisted states (including full synchrony) by improving their linear stability, but also make them hard to find by dramatically reducing their basin size. Our results highlight the importance of understanding higher-order interactions from both local and global perspectives.},
 }
 
 @article{brondetta2024benefits,
@@ -114,10 +117,11 @@
   journal={eLife},
   volume={13},
   year={2024},
-  abstract={Social learning is key in the development of both human and non-human animal societies. Here, we provide quantitative evidence that supports the existence of social learning in sperm whales across socio-cultural barriers, based on acoustic data from locations in the Pacific and Atlantic Oceans. Sperm whale populations have traditionally been partitioned into clans based on their vocal repertoire (what they say) of rhythmically patterned clicks (codas), and in particular their identity codas, which serve as symbolic markers for each clan. However, identity codas account for between 35% and 60% of all codas vocalized depending on the different clans. We introduce a computational modeling approach that recovers clan structure and shows new evidence of social learning across clans from the internal temporal structure of non-identity codas, the remaining fraction of codas. The proposed method is based on vocal style, which encodes how sperm whales assemble individual clicks into codas. Specifically, we modeled clicking pattern data using generative models based on variable length Markov chains, producing what we term "subcoda trees". Based on our results, we propose here a new concept of vocal identity, which consists of both vocal repertoire and style. We show that (i) style-delimited clans are similar to repertoire-delimited clans, and that (ii) sympatry increases vocal style similarity between clans for non-identity codas, but has no significant effect on identity codas. This implies that different clans who geographically overlap have similar styles for most codas, which in turn implies social learning across cultural boundaries. More broadly, the proposed method provides a new framework for comparing communication systems of other animal species, with potential implications for our understanding of cultural transmission in animal societies.},
   project={ceti},
+  tags={bio, ceti},
   bibtex_show={true},
   doi={10.7554/eLife.96362.1}
+  abstract={Social learning is key in the development of both human and non-human animal societies. Here, we provide quantitative evidence that supports the existence of social learning in sperm whales across socio-cultural barriers, based on acoustic data from locations in the Pacific and Atlantic Oceans. Sperm whale populations have traditionally been partitioned into clans based on their vocal repertoire (what they say) of rhythmically patterned clicks (codas), and in particular their identity codas, which serve as symbolic markers for each clan. However, identity codas account for between 35% and 60% of all codas vocalized depending on the different clans. We introduce a computational modeling approach that recovers clan structure and shows new evidence of social learning across clans from the internal temporal structure of non-identity codas, the remaining fraction of codas. The proposed method is based on vocal style, which encodes how sperm whales assemble individual clicks into codas. Specifically, we modeled clicking pattern data using generative models based on variable length Markov chains, producing what we term "subcoda trees". Based on our results, we propose here a new concept of vocal identity, which consists of both vocal repertoire and style. We show that (i) style-delimited clans are similar to repertoire-delimited clans, and that (ii) sympatry increases vocal style similarity between clans for non-identity codas, but has no significant effect on identity codas. This implies that different clans who geographically overlap have similar styles for most codas, which in turn implies social learning across cultural boundaries. More broadly, the proposed method provides a new framework for comparing communication systems of other animal species, with potential implications for our understanding of cultural transmission in animal societies.},
 }
 
 
@@ -144,6 +148,7 @@
   author = {Lucas, M. and Townsend-Teague, A. and Neri, M. and Poetto, S. and Morris, A. and Habermann, B. H. and Tichit, L.},
   title = {Phasik: a Python package to identify system states in partially temporal networks}, 
   journal = {Journal of Open Source Software},
+  tags={bio, software},
   bibtex_show={true},
   project={bio},
   code={https://gitlab.com/habermann_lab/phasik},
@@ -164,6 +169,7 @@
   year = {2023},
   bibtex_show={true},
   project={higher-order},
+  tags={higher-order, software},
   abstract = {CompleX Group Interactions (XGI) is a library for analyzing higher-order networks. Such networks are used to model interactions of arbitrary size between entities in a complex system. This library provides methods for building hypergraphs and implicial complexes; algorithms to analyze their structure, visualize them, and simulate dynamical processes on them; and a collection of higher-order datasets. XGI is implemented in pure Python and integrates with the rest of the Python scientific stack. XGI is designed and developed by network scientists with
   the needs of network scientists in mind.}
   }
