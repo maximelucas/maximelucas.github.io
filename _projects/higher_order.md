@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Group interactions
-description: 
-img: 
+title: Higher-order interactions
+description: between more than two units
+img: /assets/img/logo_ho_sync.png
 importance: 4
 category: work
 ---
