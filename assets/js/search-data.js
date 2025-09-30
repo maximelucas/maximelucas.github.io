@@ -530,9 +530,9 @@ ninja.data = [{
           description: "interactive visualisation of my collaboration network",
           section: "Projects",handler: () => {
               window.location.href = "/projects/collab_network/";
-            },},{id: "projects-group-interactions",
-          title: 'Group interactions',
-          description: "",
+            },},{id: "projects-higher-order-interactions",
+          title: 'Higher-order interactions',
+          description: "between more than two units",
           section: "Projects",handler: () => {
               window.location.href = "/projects/higher_order/";
             },},{id: "projects-neuroscience",
@@ -545,11 +545,6 @@ ninja.data = [{
           description: "the cell cycle as a temporal network",
           section: "Projects",handler: () => {
               window.location.href = "/projects/phasik/";
-            },},{id: "projects-spreading-models",
-          title: 'Spreading models',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/spreading/";
             },},{id: "projects-fungal-networks",
           title: 'fungal networks',
           description: "structure and growth of arbuscular mycorrhizal fungal networks",
