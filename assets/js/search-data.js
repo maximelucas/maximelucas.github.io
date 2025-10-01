@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-research",
+          title: "research",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -486,23 +486,18 @@ ninja.data = [{
           section: "News",},{id: "news-hamiltonian-control-to-desynchronize-kuramoto-oscillators-with-higher-order-interactions-out-in-pre",
           title: '“Hamiltonian control to desynchronize Kuramoto oscillators with higher-order interactions”, out in PRE!',
           description: "",
-          section: "News",},{id: "projects-higher-order-sync",
-          title: 'Higher-order sync',
-          description: "sync with group interactions",
+          section: "News",},{id: "projects-synchronisation",
+          title: 'synchronisation',
+          description: "of coupled oscillators",
           section: "Projects",handler: () => {
               window.location.href = "/projects/HO_sync/";
-            },},{id: "projects-time-varying-sync",
-          title: 'Time-varying sync',
-          description: "sync with time-varying parameters",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/TV_sync/";
             },},{id: "projects-amcos-booklet",
           title: 'AMCOS booklet',
           description: "a LaTeX template for conference booklets",
           section: "Projects",handler: () => {
               window.location.href = "/projects/amcos_booklet/";
-            },},{id: "projects-biological-networks",
-          title: 'Biological networks',
+            },},{id: "projects-bio-networks",
+          title: 'bio. networks',
           description: "protein interactions in cell cycle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bio/";
@@ -516,14 +511,14 @@ ninja.data = [{
           description: "interactive visualisation of my collaboration network",
           section: "Projects",handler: () => {
               window.location.href = "/projects/collab_network/";
-            },},{id: "projects-higher-order-interactions",
-          title: 'Higher-order interactions',
-          description: "between more than two units",
+            },},{id: "projects-higher-order-networks",
+          title: 'Higher-order networks',
+          description: "with interactions between more than two units",
           section: "Projects",handler: () => {
               window.location.href = "/projects/higher_order/";
             },},{id: "projects-neuroscience",
-          title: 'Neuroscience',
-          description: "topology of brain signals",
+          title: 'neuroscience',
+          description: "topology of brain activity",
           section: "Projects",handler: () => {
               window.location.href = "/projects/neuroscience/";
             },},{id: "projects-phasik",
@@ -533,7 +528,7 @@ ninja.data = [{
               window.location.href = "/projects/phasik/";
             },},{id: "projects-fungal-networks",
           title: 'fungal networks',
-          description: "structure and growth of arbuscular mycorrhizal fungal networks",
+          description: "and other branching networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/under-net/";
             },},{id: "projects-js-viz",
