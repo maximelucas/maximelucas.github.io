@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Higher-order interactions
-description: between more than two units
+title: Higher-order networks
+description: with interactions between more than two units
 img: /assets/img/logo_ho_sync.png
 importance: 4
 category: work

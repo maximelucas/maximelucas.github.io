@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Neuroscience
-description: topology of brain signals
+title: neuroscience
+description: topology of brain activity
 img: /assets/img/logo_brain.png
-importance: 6
+importance: 5
 category: work
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
 description: 
 nav: true
@@ -8,6 +8,9 @@ nav_order: 3
 display_categories: [work, code, other]
 horizontal: false
 ---
+
+I like to use my theoretical and computational skills, from dynamical systems to complex networks, to work on interdisciplinary projects. 
+See below for more details on topics I have been working on.
 
 <!-- pages/projects.md -->
 <div class="projects">
