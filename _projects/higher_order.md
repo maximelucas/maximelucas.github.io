@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Higher-order networks
+title: higher-order networks
 description: with interactions between more than two units
 img: /assets/img/logo_ho_sync.png
 importance: 4
