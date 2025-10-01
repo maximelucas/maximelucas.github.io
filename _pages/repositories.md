@@ -16,14 +16,17 @@ Open and reproducible code is crucial for open science. All code associated with
 
 (*Co-creator and co-lead developer*)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/xgi-org/xgi)  
-[![PyPI](https://img.shields.io/pypi/v/xgi?color=blue&label=PyPI)](https://pypi.org/project/xgi/)  
-[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://xgi.readthedocs.io/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/xgi-org/xgi) 
+[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://xgi.readthedocs.io/) 
+[![PyPI](https://img.shields.io/pypi/v/xgi?color=blue&label=PyPI)](https://pypi.org/project/xgi/) 
+
+![GitHub forks](https://img.shields.io/github/forks/xgi-org/xgi)  
+![GitHub Repo stars](https://img.shields.io/github/stars/xgi-org/xgi)
 
 ---
 
 ### [HyperSync](https://github.com/maximelucas/hypersync)
-**HyperSync** provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model.  
+**HyperSync** provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
 
 (*Creator and lead developer*)  
 
@@ -36,18 +39,19 @@ Open and reproducible code is crucial for open science. All code associated with
 
 (*Creator and lead developer*)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/tbouab/phasik)  
-[![PyPI](https://img.shields.io/pypi/v/phasik?color=blue&label=PyPI)](https://pypi.org/project/phasik/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/tbouab/phasik) 
+[![PyPI](https://img.shields.io/pypi/v/phasik?color=blue&label=PyPI)](https://pypi.org/project/phasik/) 
 
 ---
 
 ### [AMCOS Booklet](https://github.com/maximelucas/amcos_booklet)
-**AMCOS Booklet** is a set of lecture notes and teaching material for nonlinear dynamics and complex systems, developed as part of the AMCOS network.
+**AMCOS Booklet** is a LaTeX template for scientific conference booklet, or book of abstracts. It is also available on [latextemplates.com](https://www.latextemplates.com/template/conference-booklet) with the option to open it directly in Overleaf.
 
 (*Creator*)  
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/amcos_booklet)  
-
+![GitHub forks](https://img.shields.io/github/forks/maximelucas/amcos_booklet)  
+![GitHub Repo stars](https://img.shields.io/github/stars/maximelucas/amcos_booklet)
 ---
 
 
