@@ -11,7 +11,7 @@ Open and reproducible code is crucial for open science. All code associated with
 
 ---
 
-### [XGI](https://xgi.readthedocs.io/)
+### [xgi](https://xgi.readthedocs.io/)
 **XGI** (compleX Group Interactions) is a Python package for the analysis and modeling of networks with higher-order interactions, generalizing network science tools to hypergraphs and simplicial complexes.  
 
 (*Co-creator and co-lead developer*)  
@@ -19,14 +19,13 @@ Open and reproducible code is crucial for open science. All code associated with
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/xgi-org/xgi) 
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://xgi.readthedocs.io/) 
 [![PyPI](https://img.shields.io/pypi/v/xgi?color=blue&label=PyPI)](https://pypi.org/project/xgi/) 
-
-![GitHub forks](https://img.shields.io/github/forks/xgi-org/xgi)  
+![GitHub forks](https://img.shields.io/github/forks/xgi-org/xgi) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/xgi-org/xgi)
 
 ---
 
-### [HyperSync](https://github.com/maximelucas/hypersync)
-**HyperSync** provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
+### [hypersync](https://github.com/maximelucas/hypersync)
+**HyperSync** is Python code that provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
 
 (*Creator and lead developer*)  
 
@@ -34,24 +33,26 @@ Open and reproducible code is crucial for open science. All code associated with
 
 ---
 
-### [Phasik](https://github.com/tbouab/phasik)
+### [phasik](https://gitlab.com/habermann_lab/phasik)
 **Phasik** is a Python package for analyzing temporal protein–protein interaction networks and inferring cell-cycle phases.  
 
 (*Creator and lead developer*)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/tbouab/phasik) 
+[![GitLab](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://gitlab.com/habermann_lab/phasik) 
+[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://phasik.readthedocs.io) 
 [![PyPI](https://img.shields.io/pypi/v/phasik?color=blue&label=PyPI)](https://pypi.org/project/phasik/) 
 
 ---
 
-### [AMCOS Booklet](https://github.com/maximelucas/amcos_booklet)
-**AMCOS Booklet** is a LaTeX template for scientific conference booklet, or book of abstracts. It is also available on [latextemplates.com](https://www.latextemplates.com/template/conference-booklet) with the option to open it directly in Overleaf.
+### [amcos_booklet](https://github.com/maximelucas/amcos_booklet)
+**AMCOS Booklet** is a LaTeX template for scientific conference booklet, or obok of abstracts. It is also available on [latextemplates.com](https://www.latextemplates.com/template/conference-booklet) with the option to open it directly in Overleaf.
 
 (*Creator*)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/amcos_booklet)  
-![GitHub forks](https://img.shields.io/github/forks/maximelucas/amcos_booklet)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/amcos_booklet) 
+![GitHub forks](https://img.shields.io/github/forks/maximelucas/amcos_booklet) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/maximelucas/amcos_booklet)
+
 ---
 
 
