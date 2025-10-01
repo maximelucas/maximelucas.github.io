@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-research",
+  },{id: "nav-research",
           title: "research",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "nav-code",
           title: "code",
@@ -496,13 +496,13 @@ ninja.data = [{
           description: "a LaTeX template for conference booklets",
           section: "Projects",handler: () => {
               window.location.href = "/projects/amcos_booklet/";
-            },},{id: "projects-bio-networks",
-          title: 'bio. networks',
+            },},{id: "projects-biological-networks",
+          title: 'biological networks',
           description: "protein interactions in cell cycle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bio/";
             },},{id: "projects-sperm-whales",
-          title: 'Sperm whales',
+          title: 'sperm whales',
           description: "deciphering sperm whale communication",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ceti/";
@@ -512,7 +512,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/collab_network/";
             },},{id: "projects-higher-order-networks",
-          title: 'Higher-order networks',
+          title: 'higher-order networks',
           description: "with interactions between more than two units",
           section: "Projects",handler: () => {
               window.location.href = "/projects/higher_order/";
