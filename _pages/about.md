@@ -37,3 +37,5 @@ Feel free to reach out for questions, collaborations, or just to say hello!
 
 **Research interests**  
 Complex systems · Dynamical systems · Complex networks · Synchronization · Life Sciences
+
+<div class="contact-icons">{% include social.liquid %}</div>  
