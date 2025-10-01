@@ -18,7 +18,6 @@ Open and reproducible code is crucial for open science. All code associated with
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/xgi-org/xgi) 
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://xgi.readthedocs.io/) 
-[![PyPI](https://img.shields.io/pypi/v/xgi?color=blue&label=PyPI)](https://pypi.org/project/xgi/) 
 ![GitHub forks](https://img.shields.io/github/forks/xgi-org/xgi) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/xgi-org/xgi)
 
@@ -40,7 +39,6 @@ Open and reproducible code is crucial for open science. All code associated with
 
 [![GitLab](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://gitlab.com/habermann_lab/phasik) 
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://phasik.readthedocs.io) 
-[![PyPI](https://img.shields.io/pypi/v/phasik?color=blue&label=PyPI)](https://pypi.org/project/phasik/) 
 
 ---
 
