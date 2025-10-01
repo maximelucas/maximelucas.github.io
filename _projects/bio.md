@@ -15,10 +15,5 @@ My work looks at how these temporal interaction networks can be used to infer th
 #### References
 
 <div class="publications">
-{% bibliography -f papers -q @unpublished[project=bio] %}
+{% bibliography -f papers -q @*[project=bio] %}
 </div>
-
-<div class="publications">
-{% bibliography -f papers -q @article[project=bio] %}
-</div>
-

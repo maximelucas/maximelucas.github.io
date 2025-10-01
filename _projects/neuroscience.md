@@ -14,10 +14,5 @@ In my work, I use TDA to explore how brain dynamics change across different cond
 #### References
 
 <div class="publications">
-{% bibliography -f papers -q @unpublished[project=brain] %}
+{% bibliography -f papers -q @*[project=brain] %}
 </div>
-
-<div class="publications">
-{% bibliography -f papers -q @article[project=brain] %}
-</div>
-

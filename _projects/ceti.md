@@ -17,10 +17,5 @@ Github: <https://github.com/Project-CETI>
 #### References
 
 <div class="publications">
-{% bibliography -f papers -q @unpublished[project=ceti] %}
+{% bibliography -f papers -q @*[project=ceti] %}
 </div>
-
-<div class="publications">
-{% bibliography -f papers -q @article[project=ceti] %}
-</div>
-
