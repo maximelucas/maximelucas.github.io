@@ -12,7 +12,7 @@ Open and reproducible code is crucial for open science. All code associated with
 ---
 
 ### [xgi](https://xgi.readthedocs.io/)
-**XGI** (compleX Group Interactions) is a Python package for the analysis and modeling of networks with higher-order interactions, generalizing network science tools to hypergraphs and simplicial complexes.  
+XGI (compleX Group Interactions) is a Python package for the analysis and modeling of networks with higher-order interactions, generalizing network science tools to hypergraphs and simplicial complexes.  
 
 (*Co-creator and co-lead developer*)  
 
@@ -24,7 +24,7 @@ Open and reproducible code is crucial for open science. All code associated with
 ---
 
 ### [hypersync](https://github.com/maximelucas/hypersync)
-**HyperSync** is Python code that provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
+HyperSync is Python code that provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
 
 (*Creator and lead developer*)  
 
@@ -33,7 +33,7 @@ Open and reproducible code is crucial for open science. All code associated with
 ---
 
 ### [phasik](https://gitlab.com/habermann_lab/phasik)
-**Phasik** is a Python package for analyzing temporal protein–protein interaction networks and inferring cell-cycle phases.  
+Phasik is a Python package designed to infer temporal phases in temporal networks. It also provides functions to build, analyse, and visualise temporal networks from time series data.   
 
 (*Creator and lead developer*)  
 
@@ -43,7 +43,7 @@ Open and reproducible code is crucial for open science. All code associated with
 ---
 
 ### [amcos_booklet](https://github.com/maximelucas/amcos_booklet)
-**AMCOS Booklet** is a LaTeX template for scientific conference booklet, or obok of abstracts. It is also available on [latextemplates.com](https://www.latextemplates.com/template/conference-booklet) with the option to open it directly in Overleaf.
+AMCOS Booklet is a LaTeX template for scientific conference booklet, or obok of abstracts. It is also available on [latextemplates.com](https://www.latextemplates.com/template/conference-booklet) with the option to open it directly in Overleaf.
 
 (*Creator*)  
 
