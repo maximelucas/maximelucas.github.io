@@ -58,9 +58,9 @@
       {% if entry.type == 'article' %}
         {% capture entrytype %}<em><span style="color:var(--global-text-color-light);">{{ entry.journal }}</span></em>{% endcapture %}
       {% elsif proceedings contains entry.type %}
-        {% capture entrytype %}<em><span style="color:#666;">In {{ entry.booktitle }}</span></em>{% endcapture %}
+        {% capture entrytype %}<em><span style="color:var(--global-text-color-light);">In {{ entry.booktitle }}</span></em>{% endcapture %}
       {% elsif thesis contains entry.type %}
-        {% capture entrytype %}<em><span style="color:#666;">{{ entry.school }}</span></em>{% endcapture %}
+        {% capture entrytype %}<em><span style="color:var(--global-text-color-light);">{{ entry.school }}</span></em>{% endcapture %}
       {% else %}
         {% capture entrytype %}{% endcapture %}
       {% endif %}
@@ -94,9 +94,12 @@
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
 
-      {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
+      {% if author_array_size <= 4 %}
+        {% assign author_array_limit = author_array_size %}
+        {% assign show_last_author = false %}
+      {% else %}
+        {% assign author_array_limit = 3 %}
+        {% assign show_last_author = true %}
       {% endif %}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
@@ -116,66 +119,51 @@
               {%- assign coauthor_url = coauthor.url -%}
               {% break %}
             {%- endif -%}
-          {% endfor %}
+          {%- endfor -%}
         {%- endif -%}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
-        {% endif %}
+        {%- if forloop.first == false %}, {% endif -%}
+
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+          <em>{{- author.first }} {{ author_last_html -}}</em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
+            <a href="{{ coauthor_url }}">{{- author.first }} {{ author_last_html -}}</a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
+            {{- author.first }} {{ author_last_html -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
-      {%- assign more_authors_hide = more_authors | append: ' more author' -%}
-      {% if more_authors > 0 %}
-        {%- if more_authors > 1 -%}
-          {% assign more_authors_hide = more_authors_hide | append: 's' %}
-        {%- endif -%}
-        {% assign more_authors_show = '' %}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+      {% if show_last_author %}
+        {% assign last_author = entry.author_array | last %}
+        {% assign hidden_authors_count = author_array_size | minus: 4 %}
+
+        {% assign hidden_authors_list = '' %}
+        {%- for author in entry.author_array offset: 3 limit: hidden_authors_count -%}
+          {% assign hidden_authors_list = hidden_authors_list | append: author.first | append: ' ' | append: author.last %}
           {% unless forloop.last %}
-            {% assign more_authors_show = more_authors_show | append: ', ' %}
+            {% assign hidden_authors_list = hidden_authors_list | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
+        {%- assign hidden_authors_list = hidden_authors_list | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+
+        , 
         <span
           class="more-authors"
-          title="click to view {{ more_authors_hide }}"
+          title="click to view all authors"
           onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{ site.more_authors_animation_delay }}');
+              var more_authors_text = element.text() == '...' ? '{{ hidden_authors_list }}' : '...';
+              element.text(more_authors_text);
           "
-        >
-          {{- more_authors_hide -}}
-        </span>
+        >...</span>,
+        and
+        {{ last_author.first }} {{ last_author.last }}
+      {% endif %}
+    </div>
+
       {% endif %}
       {% if entry.annotation %}
         <i
