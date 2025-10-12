@@ -776,8 +776,7 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
-          font-style: normal;
+          font-weight: bolder;
         }
 
         > span.more-authors {
@@ -796,8 +795,8 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 0.1rem;
-          padding-right: 0.1rem;
+          padding-left: 0.15rem;
+          padding-right: 0.15rem;
           padding-top: 0.1rem;
           padding-bottom: 0.1rem;
           margin-left: 0;
