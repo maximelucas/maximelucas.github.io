@@ -212,6 +212,9 @@
           |<a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PAPER</a>
         {% endif %}
       {% endif %}
+      {% if entry.preprint %}
+        |<a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">preprint</a>
+      {% endif %}
       {% if entry.arxiv %}
         |<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">preprint</a>
       {% endif %}
