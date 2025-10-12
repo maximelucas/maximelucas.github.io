@@ -191,6 +191,9 @@
     </div>
 
     <!-- Links/Buttons -->
+
+    {% if show_buttons != false %}
+
     <div class="links">
       {% capture buttons %}
 
@@ -216,7 +219,7 @@
         |<a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">preprint</a>
       {% endif %}
       {% if entry.arxiv %}
-        |<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">preprint</a>
+        |<a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
         |<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -270,6 +273,8 @@
       {% endif %}
   
     </div>
+    {% endif %}
+    
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
