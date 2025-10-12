@@ -220,7 +220,7 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          |<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>|
+          |<a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% else %}
           |<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
@@ -261,8 +261,11 @@
         |<a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
       {% endcapture %}
-      {{ buttons }}|
-      {{ buttons | split: '|' | join: ' | ' }}
+      {% assign buttons_trimmed = buttons | strip %}
+      {% if buttons_trimmed != '' %}
+        {{ buttons | split: '|' | join: ' | ' }} |;
+      {% endif %}
+  
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
