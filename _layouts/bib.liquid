@@ -50,7 +50,7 @@
 
     <!-- Title -->
     <div>
-      <span class="title">{{ entry.title }}</span> — 
+      <span class="title">{{ entry.title }}</span>,  
 
       <!-- Journal/Book title and date -->
       {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
@@ -87,7 +87,7 @@
       </span>
       <span class="periodical">
         {{ entry.note | strip }}
-      </span>
+      </span> — 
     
 
     <!-- Author -->
