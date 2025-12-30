@@ -13,7 +13,7 @@ profile:
     <p></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -36,4 +36,3 @@ I obtained my PhD as part of the [COSMOS](https://cordis.europa.eu/project/id/64
 **Research interests**  
 Complex systems · Dynamical systems · Complex networks · Synchronization · Life Sciences
 
-<div class="contact-icons">{% include social.liquid %}</div> 
