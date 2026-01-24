@@ -15,10 +15,6 @@ Page in evolution. Here, I test visuatlisations in p5.js and d3.js.. for now.
 <div id="sketch1"> </div>
 This is a first test. Play around with it!
 
-<div id="sketch2"> </div>
-This is a second test. Play around with it!
-
-
 
 <script>
 function setup() {
@@ -39,23 +35,4 @@ function draw() {
   }
   ellipse(mouseX, mouseY, 80, 80);
 }
-</script>
-
-<script>
-function setup() {
-  let canvas = createCanvas(640, 480);
-  canvas.parent("sketch2");
-}
-
-function draw() {
-  if (mouseIsPressed) {
-    fill("red");
-    stroke(255 - color);
-  } else {
-    fill(255);
-    stroke(0);
-  }
-  ellipse(mouseX, mouseY, 80, 80);
-}
-
 </script>
