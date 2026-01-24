@@ -51,4 +51,4 @@ This was inspired by [Florian Klimm's code](https://github.com/floklimm/collabor
 
 
 <!--  this script does all the actual work -->
-<script type="text/javascript" src="{{ site.url }}assets/viz_collab_net/forceLayoutTooltip.js"></script>
+<script type="text/javascript" src="/assets/viz_collab_net/forceLayoutTooltip.js"></script>
