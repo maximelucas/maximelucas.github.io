@@ -12,3 +12,7 @@ Branching networks are everywhere in nature, from fungal mycelium to blood vesse
 Studying fungi in particular is especially relevant, as their networks play a vital role in ecosystems: they recycle nutrients, exchange resources with plants, and shape the structure of soils. My work explores how branching networks emerge and function, using fungi as a natural example. By looking at how these networks expand, branch, and merge, I aim to uncover general insights into the dynamics of biological and spatial networks.
 
 This research is funded by an FNRS Fellowship for project UNDER-NET, "Underground Networks: Characterising the structure and growth of arbuscular mycorrhizal fungal networks".
+
+<div class="publications">
+{% bibliography -f papers -q @*[project=fungi] %}
+</div>
