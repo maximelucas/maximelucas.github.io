@@ -28,7 +28,7 @@ HyperSynchronization is a Python library that provides models and tools to study
 
 (*Creator and lead developer*)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/hypersynchronization)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/hypersynchronization) 
 [![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://hypersynchronization.readthedocs.io/) 
 ![GitHub forks](https://img.shields.io/github/forks/maximelucas/hypersynchronization) 
 ![GitHub Repo stars](https://img.shields.io/github/stars/maximelucas/hypersynchronization)
