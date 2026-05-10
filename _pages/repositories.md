@@ -23,12 +23,15 @@ XGI (compleX Group Interactions) is a Python package for the analysis and modeli
 
 ---
 
-### [hypersync](https://github.com/maximelucas/hypersync)
-HyperSync is Python code that provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
+### [hypersynchronization](https://github.com/maximelucas/hypersynchronization)
+HyperSynchronization is a Python library that provides models and tools to study synchronization processes on hypergraphs, with a focus on higher-order generalizations of the Kuramoto model. It builds on the XGI's capabilities for higher-order networks. 
 
 (*Creator and lead developer*)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/hypersync)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/maximelucas/hypersynchronization)  
+[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://hypersynchronization.readthedocs.io/) 
+![GitHub forks](https://img.shields.io/github/forks/maximelucas/hypersynchronization) 
+![GitHub Repo stars](https://img.shields.io/github/stars/maximelucas/hypersynchronization)
 
 ---
 
