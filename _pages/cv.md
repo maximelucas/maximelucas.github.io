@@ -14,10 +14,13 @@ My full CV can be found [here](/assets/cv/Maxime_Lucas-CV-EN.pdf).
 
 #### Current position
 
-- **FNRS Postdoctoral fellow (CR)**<span style="float:right;">Apr 2024-Present</span>   
-hosted by Timoteo Carletti at Namur Institute for Complex systems and Stephane Declerck at UCLouvain (Belgium)
+- **Assistant Professor ("chargé de cours")**<span style="float:right;">Sept 2026-Present</span>   
+University of Namur: Department of Mathematics and Namur Institute for Complex systems (naXys)
 
 #### Past positions
+
+- **FNRS Postdoctoral fellow (CR)**<span style="float:right;">Apr 2024-Aug 2026</span>   
+hosted by Timoteo Carletti at Namur Institute for Complex systems and Stephane Declerck at UCLouvain (Belgium)
 
 - **Postdoctoral associate**<span style="float:right;">Jun 2022-Apr 2024</span>   
 with Giovanni Petri at CENTAI Turin (Italy)
