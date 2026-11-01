@@ -32,6 +32,9 @@ I am an Assistant Professor ("chargé de cours") at the University of Namur and 
 
 Before that, I was an [FNRS](https://www.frs-fnrs.be/en/) postdoctoral fellow in Namur and at the [Laboratory of Mycology](https://www.uclouvain.be/en/research-institutes/eli/elim/team-declerck) (UCLouvain), and a postdoc at [CENTAI](https://centai.eu/) and the [ISI Foundation](https://isi.it) in Turin, and at [CENTURI](http://centuri-livingsystems.org/) in Marseille. I obtained my PhD in Physics from Lancaster University and the University of Florence, as part of the [COSMOS](https://cordis.europa.eu/project/id/642563) Marie Curie network.
 
+**Prospective students and postdocs**  
+[Reach out](/contact/) if you're interested in joining the group! No funded positions right now, but I'm happy to apply together for PhD or postdoc fellowships (e.g. [FNRS](https://www.frs-fnrs.be/en/), FRIA, Marie Curie).
+
 **Research interests**  
 Complex systems · Dynamical systems · Complex networks · Synchronization · Life Sciences
 
