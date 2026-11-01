@@ -9,7 +9,7 @@ last_name: Lucas
 contact_note: >
 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Maxime Lucas, Assistant Professor at the University of Namur (naXys). Dynamical systems, complex and higher-order networks, and their applications to the life sciences.
 footer_text: >
   Based on the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: science, research, physics, biology, networks # add your own keywords or leave empty

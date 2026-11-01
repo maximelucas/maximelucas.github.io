@@ -11,7 +11,7 @@ social: false
 
 By email: maxime.lucas [at] unamur.be  
 
-In person:
-* Namur Institute for Complex Systems (naXys) in the [Faculté des Sciences](https://maps.app.goo.gl/iYd6dZNAmM94AasU7) (3rd floor) at UNamur, Namur (Belgium),
-* Mycology Lab in the [Bâtiment Kellner](https://maps.app.goo.gl/PeqFF9vkYFg2JNpu7) at UCLouvain, Louvain-la-Neuve (Belgium).
+In person: Department of Mathematics and Namur Institute for Complex Systems (naXys), [Faculté des Sciences](https://maps.app.goo.gl/iYd6dZNAmM94AasU7) (3rd floor), University of Namur, Namur (Belgium).
+
+I also regularly visit the Mycology Lab at UCLouvain ([Bâtiment Kellner](https://maps.app.goo.gl/PeqFF9vkYFg2JNpu7), Louvain-la-Neuve), where I collaborate with Stéphane Declerck.
 
